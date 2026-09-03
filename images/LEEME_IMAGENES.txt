@@ -1,0 +1,37 @@
+========================================================================
+CARPETA DE IMÁGENES - MO-HOUSE (EIBAR)
+========================================================================
+
+Aquí puedes colocar todas las fotografías reales de tus trabajos, reformas,
+desatascos, averías y herramientas.
+
+El archivo `index.html` ya está configurado para leer automáticamente estas
+imágenes por su nombre de archivo. Solo tienes que arrastrar tus fotos a esta
+carpeta y renombrarlas según la siguiente lista recomendada:
+
+------------------------------------------------------------------------
+📸 NOMBRES DE ARCHIVO RECOMENDADOS PARA LA GALERÍA / TRABAJOS:
+------------------------------------------------------------------------
+1. `trabajo-bano-1.jpg`       -> Foto de reforma de baño / plato de ducha
+2. `trabajo-desatasco-1.jpg`   -> Foto de desatasco express con máquina
+3. `trabajo-cuadro-1.jpg`      -> Foto de cuadro eléctrico / diferencial
+4. `trabajo-tuberia-1.jpg`     -> Foto de reparación de tubería / bajante
+5. `trabajo-cocina-1.jpg`      -> Foto de fontanería en cocina / fregadero
+6. `trabajo-termo-1.jpg`       -> Foto de instalación o cambio de termo eléctrico
+
+------------------------------------------------------------------------
+⭐ IMÁGENES GENERALES Y LOGOTIPO (OPCIONAL):
+------------------------------------------------------------------------
+- `logo.png`                   -> Logotipo de MO-house (fondo transparente)
+- `mohammed-akhrif.jpg`        -> Foto profesional de Mohammed Akhrif
+- `furgoneta-herramientas.jpg` -> Foto del vehículo o equipo técnico
+- `og-image.jpg`               -> Imagen para compartir en WhatsApp/Facebook (1200x630 px)
+
+------------------------------------------------------------------------
+💡 CONSEJOS PARA MEJOR RENDIMIENTO:
+------------------------------------------------------------------------
+- Formatos recomendados: `.jpg`, `.jpeg`, `.webp` o `.png`.
+- Si una foto aún no existe en esta carpeta, la web mostrará automáticamente
+  una ilustración técnica con degradado moderno para que la página nunca
+  se vea rota o incompleta.
+========================================================================

@@ -1,0 +1,32 @@
+# robots.txt para https://mo-house.es/
+User-agent: *
+Allow: /
+Disallow:
+
+# AI / LLM Web Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemaps y Documentación GEO
+Sitemap: https://mo-house.es/sitemap.xml
+# LLMs GEO Standard
+# https://mo-house.es/llms.txt
+# https://mo-house.es/llms-full.txt
