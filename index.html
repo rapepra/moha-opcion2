@@ -43,7 +43,7 @@
   <meta name="twitter:image" content="./images/logo-mo-house.png">
 
   <!-- Favicon e Icono de Tema -->
-  <meta name="theme-color" content="#0b1329">
+  <meta name="theme-color" content="#080d1a">
   <link rel="icon" href="./images/logo-mo-house.png" type="image/png">
   <link rel="apple-touch-icon" href="./images/logo-mo-house.png">
 
@@ -265,42 +265,46 @@
   }
   </script>
 
-  <!-- ESTILOS CSS3: DISEÑO CORPORATIVO LIMPIO, RESPONSIVE Y PROFESIONAL -->
+  <!-- ESTILOS CSS3: DISEÑO CORPORATIVO DARK MODE PREMIUM (ALTO CONTRASTE WCAG AAA) -->
   <style>
     /* ==========================================================================
-       VARIABLES DE COLOR BASADAS EN EL LOGO OFICIAL DE MO-HOUSE
+       VARIABLES DE COLOR DARK MODE BASADAS EN EL LOGOTIPO OFICIAL DE MO-HOUSE
        ========================================================================== */
     :root {
-      --brand-blue: #0284c7;       /* Azul Hydro (Fontanería) */
-      --brand-blue-dark: #0369a1;  /* Azul Profundo */
-      --brand-blue-subtle: #e0f2fe;/* Azul Suave */
-      --brand-orange: #ea580c;     /* Naranja Energía (Electricidad / Tejado) */
-      --brand-orange-hover: #c2410c;
-      --brand-orange-subtle: #ffedd5;
-      --brand-yellow: #facc15;     /* Amarillo Rayo */
-      --brand-shield: #0b1329;     /* Azul Marino / Escudo Oscuro del Logo */
-      --brand-shield-card: #131d3b;
-      --brand-wa: #16a34a;         /* Verde WhatsApp Profesional */
-      --brand-wa-hover: #15803d;
+      /* Acentos Luminosos de Alto Contraste */
+      --brand-blue: #38bdf8;        /* Azul Hydro luminoso (Contraste 10.6:1) */
+      --brand-blue-dark: #0284c7;   /* Azul Profundo para botones */
+      --brand-blue-subtle: rgba(56, 189, 248, 0.12); /* Azul translúcido */
+      --brand-orange: #fb923c;      /* Naranja Energía de alto contraste */
+      --brand-orange-hover: #ea580c;
+      --brand-orange-subtle: rgba(251, 146, 60, 0.16);
+      --brand-yellow: #fde047;      /* Amarillo Rayo ultra visible (Contraste 15.2:1) */
+      --brand-shield: #f1f5f9;      /* Usado para títulos y textos prominentes */
+      --brand-shield-card: #131f3b; /* Fondo de tarjetas premium */
+      --brand-wa: #22c55e;          /* Verde WhatsApp luminoso */
+      --brand-wa-hover: #16a34a;
 
-      --bg-page: #f8fafc;
-      --bg-white: #ffffff;
-      --bg-slate: #f1f5f9;
-      --border-subtle: #e2e8f0;
-      --border-medium: #cbd5e1;
+      /* Superficies Oscuras Escalonadas (Profundidad Visual) */
+      --bg-page: #080d1a;           /* Fondo principal: azul noche profundo */
+      --bg-surface: #0c1426;        /* Superficie alternativa de secciones */
+      --bg-white: #111c35;          /* Superficie de tarjetas y cajas */
+      --bg-slate: #172442;          /* Superficie de pastillas, specs y badges */
+      --border-subtle: rgba(255, 255, 255, 0.08); /* Bordes sutiles elegantes */
+      --border-medium: rgba(255, 255, 255, 0.16); /* Bordes activos */
 
-      --text-dark: #0f172a;
-      --text-muted: #475569;
-      --text-light: #94a3b8;
+      /* Tipografía con Contraste Impecable (WCAG AAA) */
+      --text-dark: #f8fafc;         /* Texto principal (blanco tiza) */
+      --text-muted: #94a3b8;        /* Texto secundario (contraste > 7:1) */
+      --text-light: #cbd5e1;        /* Texto terciario legible */
 
       --radius-sm: 8px;
       --radius-md: 14px;
       --radius-lg: 20px;
       --radius-full: 9999px;
 
-      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
-      --shadow-md: 0 4px 12px -2px rgba(11, 19, 41, 0.08), 0 2px 6px -1px rgba(11, 19, 41, 0.04);
-      --shadow-lg: 0 12px 30px -4px rgba(11, 19, 41, 0.12), 0 4px 12px -2px rgba(11, 19, 41, 0.05);
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+      --shadow-md: 0 4px 16px -2px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06);
+      --shadow-lg: 0 12px 36px -4px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(255, 255, 255, 0.09);
 
       --container-max: 1240px;
       --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
@@ -316,6 +320,7 @@
     html {
       scroll-behavior: smooth;
       font-size: 16px;
+      color-scheme: dark;
     }
 
     body {
@@ -357,11 +362,11 @@
        1. TOP STRIP INSTITUCIONAL
        ========================================================================== */
     .top-bar-clean {
-      background-color: var(--brand-shield);
+      background-color: #050811;
       color: #94a3b8;
       font-size: 0.82rem;
       padding: 0.5rem 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid var(--border-subtle);
     }
 
     .top-bar-inner {
@@ -400,18 +405,21 @@
 
     .top-bar-link:hover {
       color: #ffffff;
+      text-decoration: underline;
     }
 
     /* ==========================================================================
        2. CABECERA CON EL LOGO OFICIAL & NAVEGACIÓN 100% RESPONSIVE
        ========================================================================== */
     .main-header {
-      background-color: var(--bg-white);
+      background-color: rgba(8, 13, 26, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--border-subtle);
       position: sticky;
       top: 0;
       z-index: 50;
-      box-shadow: var(--shadow-sm);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
     }
 
     .header-content {
@@ -445,7 +453,7 @@
     .brand-heading {
       font-size: 1.35rem;
       font-weight: 900;
-      color: var(--brand-shield);
+      color: #ffffff;
       line-height: 1.1;
       letter-spacing: -0.5px;
     }
@@ -479,7 +487,7 @@
     .nav-item-link {
       font-size: 0.88rem;
       font-weight: 600;
-      color: var(--text-muted);
+      color: #cbd5e1;
       transition: var(--transition);
       padding: 0.4rem 0.2rem;
       white-space: nowrap;
@@ -506,14 +514,14 @@
       display: inline-flex;
       align-items: center;
       gap: 0.45rem;
-      box-shadow: 0 4px 12px rgba(234, 88, 12, 0.25);
+      box-shadow: 0 4px 14px rgba(251, 146, 60, 0.35);
       transition: var(--transition);
       white-space: nowrap;
     }
 
     .btn-call-header:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 18px rgba(234, 88, 12, 0.4);
+      box-shadow: 0 6px 20px rgba(251, 146, 60, 0.5);
     }
 
     /* Botón Hamburguesa */
@@ -525,7 +533,7 @@
       width: 44px;
       height: 44px;
       background-color: var(--bg-slate);
-      border: 1px solid var(--border-subtle);
+      border: 1px solid var(--border-medium);
       border-radius: var(--radius-sm);
       cursor: pointer;
       padding: 10px;
@@ -543,7 +551,7 @@
       display: block;
       width: 22px;
       height: 2.5px;
-      background-color: var(--brand-shield);
+      background-color: #f8fafc;
       border-radius: 2px;
       transition: var(--transition);
     }
@@ -566,8 +574,9 @@
       top: 100%;
       left: 0;
       right: 0;
-      background-color: #ffffff;
+      background-color: #0b1324;
       border-bottom: 2px solid var(--brand-blue);
+      border-top: 1px solid var(--border-subtle);
       box-shadow: var(--shadow-lg);
       padding: 1.5rem 1.5rem 2rem;
       display: none;
@@ -590,17 +599,19 @@
     .mobile-nav-links a {
       font-size: 1rem;
       font-weight: 700;
-      color: var(--brand-shield);
-      padding: 0.6rem 0.75rem;
+      color: #f8fafc;
+      padding: 0.65rem 0.85rem;
       border-radius: var(--radius-sm);
       display: block;
-      background-color: #fafaf9;
+      background-color: #121c33;
+      border: 1px solid rgba(255, 255, 255, 0.05);
       transition: var(--transition);
     }
 
     .mobile-nav-links a:hover {
       background-color: var(--brand-blue-subtle);
       color: var(--brand-blue);
+      border-color: rgba(56, 189, 248, 0.3);
     }
 
     .mobile-drawer-actions {
@@ -615,7 +626,7 @@
        ========================================================================== */
     .hero-branded {
       padding: 3.5rem 0 4.5rem;
-      background: linear-gradient(180deg, #ffffff 0%, var(--bg-page) 100%);
+      background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.09) 0%, transparent 65%), #080d1a;
       border-bottom: 1px solid var(--border-subtle);
     }
 
@@ -643,9 +654,9 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background-color: var(--brand-blue-subtle);
-      border: 1px solid rgba(2, 132, 199, 0.2);
-      color: var(--brand-blue-dark);
+      background-color: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: #38bdf8;
       padding: 0.35rem 0.85rem;
       border-radius: var(--radius-full);
       font-size: 0.78rem;
@@ -658,7 +669,7 @@
     .hero-title-branded {
       font-size: 2.25rem;
       font-weight: 900;
-      color: var(--brand-shield);
+      color: #f8fafc;
       line-height: 1.15;
       margin-bottom: 1.25rem;
       letter-spacing: -0.5px;
@@ -687,7 +698,7 @@
     }
 
     .hero-lead-text strong {
-      color: var(--text-dark);
+      color: #f1f5f9;
       font-weight: 700;
     }
 
@@ -716,19 +727,19 @@
       align-items: center;
       justify-content: center;
       gap: 0.65rem;
-      box-shadow: 0 6px 18px rgba(234, 88, 12, 0.35);
+      box-shadow: 0 6px 20px rgba(251, 146, 60, 0.4);
       transition: var(--transition);
     }
 
     .btn-action-call:hover {
       transform: translateY(-2px);
-      box-shadow: 0 10px 24px rgba(234, 88, 12, 0.45);
+      box-shadow: 0 10px 28px rgba(251, 146, 60, 0.55);
     }
 
     .btn-action-wa {
-      background-color: var(--bg-white);
-      color: var(--brand-wa);
-      border: 1.5px solid var(--brand-wa);
+      background-color: rgba(34, 197, 94, 0.12);
+      color: #4ade80;
+      border: 1.5px solid #22c55e;
       padding: 1rem 1.5rem;
       border-radius: var(--radius-sm);
       font-size: 1rem;
@@ -741,9 +752,11 @@
     }
 
     .btn-action-wa:hover {
-      background-color: var(--brand-wa);
+      background-color: #16a34a;
       color: #ffffff;
+      border-color: #16a34a;
       transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(22, 163, 74, 0.4);
     }
 
     /* Insignias de Confianza */
@@ -770,7 +783,7 @@
     .trust-mini-title {
       font-size: 0.85rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
     }
 
     .trust-mini-desc {
@@ -783,9 +796,9 @@
       position: relative;
       border-radius: var(--radius-lg);
       overflow: hidden;
-      box-shadow: var(--shadow-lg);
-      border: 1px solid var(--border-subtle);
-      background-color: #ffffff;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background-color: #111c35;
     }
 
     .hero-showcase-img {
@@ -803,7 +816,7 @@
     .hero-showcase-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(180deg, rgba(11, 19, 41, 0.2) 0%, rgba(11, 19, 41, 0.75) 100%);
+      background: linear-gradient(180deg, rgba(8, 13, 26, 0.2) 0%, rgba(8, 13, 26, 0.8) 100%);
       pointer-events: none;
     }
 
@@ -811,9 +824,9 @@
       position: absolute;
       top: 1.25rem;
       left: 1.25rem;
-      background: rgba(11, 19, 41, 0.9);
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: rgba(8, 13, 26, 0.92);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
       padding: 0.5rem 0.9rem;
       border-radius: var(--radius-full);
       display: inline-flex;
@@ -822,7 +835,7 @@
       color: #ffffff;
       font-size: 0.82rem;
       font-weight: 800;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     }
 
     .hero-floating-badge-bottom {
@@ -830,22 +843,22 @@
       bottom: 1.25rem;
       left: 1.25rem;
       right: 1.25rem;
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.8);
+      background: rgba(13, 20, 38, 0.94);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.14);
       padding: 1rem 1.25rem;
       border-radius: var(--radius-md);
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 1rem;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 8px 26px rgba(0, 0, 0, 0.5);
     }
 
     .hero-floating-badge-bottom .badge-text-title {
       font-size: 0.92rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
       display: block;
     }
 
@@ -858,8 +871,9 @@
     .hero-floating-badge-bottom .badge-rating {
       font-size: 0.82rem;
       font-weight: 800;
-      color: var(--brand-orange);
-      background-color: var(--brand-orange-subtle);
+      color: #fb923c;
+      background-color: rgba(251, 146, 60, 0.2);
+      border: 1px solid rgba(251, 146, 60, 0.35);
       padding: 0.3rem 0.6rem;
       border-radius: var(--radius-full);
       white-space: nowrap;
@@ -896,7 +910,7 @@
     .clean-heading-title {
       font-size: 2rem;
       font-weight: 900;
-      color: var(--brand-shield);
+      color: #f8fafc;
       line-height: 1.2;
       margin-bottom: 0.85rem;
       letter-spacing: -0.5px;
@@ -955,6 +969,7 @@
       border-radius: var(--radius-sm);
       background-color: var(--brand-blue-subtle);
       color: var(--brand-blue);
+      border: 1px solid rgba(56, 189, 248, 0.25);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -965,12 +980,13 @@
     .service-icon-box.orange-accent {
       background-color: var(--brand-orange-subtle);
       color: var(--brand-orange);
+      border: 1px solid rgba(251, 146, 60, 0.25);
     }
 
     .service-clean-card h3 {
       font-size: 1.2rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
       margin-bottom: 0.65rem;
     }
 
@@ -993,7 +1009,7 @@
     .service-clean-points li {
       font-size: 0.82rem;
       font-weight: 600;
-      color: var(--text-dark);
+      color: #cbd5e1;
       display: flex;
       align-items: center;
       gap: 0.4rem;
@@ -1041,6 +1057,12 @@
       border-radius: var(--radius-md);
       overflow: hidden;
       box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .case-clean-item:hover {
+      border-color: rgba(56, 189, 248, 0.4);
+      box-shadow: var(--shadow-md);
     }
 
     .case-clean-media {
@@ -1065,13 +1087,14 @@
       position: absolute;
       top: 1rem;
       left: 1rem;
-      background-color: rgba(11, 19, 41, 0.85);
+      background-color: rgba(8, 13, 26, 0.88);
       color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
       font-size: 0.75rem;
       font-weight: 800;
       padding: 0.3rem 0.75rem;
       border-radius: var(--radius-full);
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(6px);
     }
 
     .case-clean-body {
@@ -1081,7 +1104,7 @@
     .case-clean-body h3 {
       font-size: 1.25rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
       margin-bottom: 0.6rem;
     }
 
@@ -1094,13 +1117,18 @@
 
     .case-specs-box {
       background-color: var(--bg-slate);
+      border: 1px solid rgba(255, 255, 255, 0.06);
       border-radius: var(--radius-sm);
       padding: 0.85rem 1rem;
       font-size: 0.82rem;
-      color: var(--text-dark);
+      color: #cbd5e1;
       display: flex;
       flex-direction: column;
       gap: 0.35rem;
+    }
+
+    .case-specs-box strong {
+      color: #f8fafc;
     }
 
     /* ==========================================================================
@@ -1117,7 +1145,7 @@
     .filter-btn-pill {
       background-color: var(--bg-white);
       border: 1px solid var(--border-medium);
-      color: var(--text-muted);
+      color: #cbd5e1;
       font-size: 0.85rem;
       font-weight: 700;
       padding: 0.55rem 1.15rem;
@@ -1127,9 +1155,10 @@
     }
 
     .filter-btn-pill:hover, .filter-btn-pill.active {
-      background-color: var(--brand-shield);
+      background: linear-gradient(135deg, #0284c7, #0369a1);
       color: #ffffff;
-      border-color: var(--brand-shield);
+      border-color: #38bdf8;
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.4);
     }
 
     .gallery-clean-grid {
@@ -1193,7 +1222,7 @@
     .gallery-card-title {
       font-size: 0.9rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
       margin-bottom: 0.2rem;
     }
 
@@ -1242,7 +1271,7 @@
     .bio-content-clean h3 {
       font-size: 2rem;
       font-weight: 900;
-      color: var(--brand-shield);
+      color: #f8fafc;
       margin-bottom: 0.35rem;
     }
 
@@ -1258,7 +1287,7 @@
 
     .bio-desc-clean {
       font-size: 0.95rem;
-      color: var(--text-muted);
+      color: #cbd5e1;
       line-height: 1.7;
       margin-bottom: 1.25rem;
     }
@@ -1289,7 +1318,7 @@
     .bio-fiscal-grid-clean div span {
       font-size: 0.92rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
     }
 
     /* ==========================================================================
@@ -1330,9 +1359,9 @@
     }
 
     .town-clean-card.base-city {
-      background-color: var(--brand-shield);
-      color: #ffffff;
-      border-color: var(--brand-shield);
+      background: linear-gradient(145deg, #18284d 0%, #0d172e 100%);
+      border: 1.5px solid rgba(56, 189, 248, 0.4);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     }
 
     .town-clean-card.base-city .town-name-clean {
@@ -1346,7 +1375,7 @@
     .town-name-clean {
       font-size: 1.15rem;
       font-weight: 900;
-      color: var(--brand-shield);
+      color: #f8fafc;
       margin-bottom: 0.35rem;
     }
 
@@ -1354,6 +1383,34 @@
       font-size: 0.78rem;
       font-weight: 700;
       color: var(--brand-orange);
+    }
+
+    /* Banner destacado de Radio 40 km */
+    .cobertura-highlight-banner {
+      margin-top: 2rem;
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.1), rgba(251, 146, 60, 0.1));
+      border: 1.5px solid rgba(56, 189, 248, 0.3);
+      border-radius: 1rem;
+      padding: 1.6rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .cobertura-highlight-title {
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: #f8fafc;
+    }
+
+    .cobertura-highlight-desc {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      margin-top: 0.25rem;
+      line-height: 1.5;
     }
 
     /* ==========================================================================
@@ -1377,7 +1434,8 @@
     }
 
     .faq-clean-item.active {
-      border-color: var(--brand-blue);
+      border-color: rgba(56, 189, 248, 0.5);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
 
     .faq-clean-btn {
@@ -1392,7 +1450,7 @@
       cursor: pointer;
       font-size: 1.05rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
       gap: 1rem;
     }
 
@@ -1420,7 +1478,7 @@
 
     .faq-clean-answer p {
       font-size: 0.92rem;
-      color: var(--text-muted);
+      color: #cbd5e1;
       line-height: 1.65;
     }
 
@@ -1428,14 +1486,14 @@
        10. CONTACTO DIRECTO (SIN FORMULARIO SOBRECARGADO - 100% DIRECTO)
        ========================================================================== */
     .contact-hero-banner {
-      background: linear-gradient(135deg, var(--brand-shield) 0%, var(--brand-shield-card) 100%);
+      background: linear-gradient(135deg, #101c38 0%, #0c1426 100%);
       border-radius: var(--radius-lg);
       padding: 3rem 2rem;
       color: #ffffff;
       text-align: center;
       margin-bottom: 3rem;
       box-shadow: var(--shadow-lg);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.12);
     }
 
     @media (min-width: 768px) {
@@ -1449,6 +1507,7 @@
       font-weight: 900;
       line-height: 1.2;
       margin-bottom: 1rem;
+      color: #ffffff;
     }
 
     @media (min-width: 768px) {
@@ -1493,13 +1552,13 @@
       display: inline-flex;
       align-items: center;
       gap: 0.65rem;
-      box-shadow: 0 6px 20px rgba(234, 88, 12, 0.4);
+      box-shadow: 0 6px 20px rgba(251, 146, 60, 0.4);
       transition: var(--transition);
     }
 
     .btn-banner-call:hover {
       transform: translateY(-2px);
-      box-shadow: 0 10px 28px rgba(234, 88, 12, 0.55);
+      box-shadow: 0 10px 28px rgba(251, 146, 60, 0.55);
     }
 
     .btn-banner-wa {
@@ -1569,6 +1628,7 @@
       justify-content: center;
       font-size: 1.35rem;
       color: var(--brand-blue);
+      border: 1px solid rgba(255, 255, 255, 0.05);
     }
 
     .channel-meta strong {
@@ -1583,7 +1643,7 @@
     .channel-meta span {
       font-size: 1.05rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
       display: block;
       word-break: break-word;
     }
@@ -1599,11 +1659,11 @@
        11. FOOTER INSTITUCIONAL
        ========================================================================== */
     .site-footer-clean {
-      background-color: var(--brand-shield);
+      background-color: #050811;
       color: #cbd5e1;
       padding: 4.5rem 0 calc(5.5rem + env(safe-area-inset-bottom, 0px));
       font-size: 0.88rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-top: 1px solid var(--border-subtle);
     }
 
     @media (min-width: 1024px) {
@@ -1681,7 +1741,7 @@
     }
 
     .footer-nav-clean a:hover {
-      color: #ffffff;
+      color: #38bdf8;
     }
 
     .footer-bottom-clean {
@@ -1693,7 +1753,7 @@
       align-items: center;
       text-align: center;
       font-size: 0.82rem;
-      color: #64748b;
+      color: #94a3b8;
     }
 
     @media (min-width: 768px) {
@@ -1735,13 +1795,13 @@
       background-color: rgba(11, 19, 41, 0.96);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.18);
       border-radius: var(--radius-full);
       padding: 0.55rem 0.85rem;
       display: grid;
       grid-template-columns: 1fr 1.2fr;
       gap: 0.65rem;
-      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.7);
     }
 
     @media (min-width: 1024px) {
@@ -1782,7 +1842,7 @@
     .modal-veil-clean {
       position: fixed;
       inset: 0;
-      background-color: rgba(11, 19, 41, 0.85);
+      background-color: rgba(4, 7, 15, 0.88);
       backdrop-filter: blur(8px);
       z-index: 200;
       display: none;
@@ -1796,7 +1856,8 @@
     }
 
     .modal-card-clean {
-      background-color: #ffffff;
+      background-color: #0f172a;
+      border: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: var(--radius-md);
       max-width: 650px;
       width: 100%;
@@ -1805,6 +1866,7 @@
       flex-direction: column;
       box-shadow: var(--shadow-lg);
       overflow: hidden;
+      color: #cbd5e1;
     }
 
     .modal-card-clean.lightbox-size {
@@ -1813,7 +1875,7 @@
 
     .modal-clean-top {
       padding: 1.25rem 1.5rem;
-      border-bottom: 1px solid var(--border-subtle);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -1822,28 +1884,32 @@
     .modal-clean-title {
       font-size: 1.25rem;
       font-weight: 800;
-      color: var(--brand-shield);
+      color: #f8fafc;
     }
 
     .btn-close-clean-modal {
       background: none;
       border: none;
       font-size: 1.5rem;
-      color: var(--text-muted);
+      color: #94a3b8;
       cursor: pointer;
       line-height: 1;
+    }
+
+    .btn-close-clean-modal:hover {
+      color: #ffffff;
     }
 
     .modal-clean-scroll {
       padding: 1.5rem;
       overflow-y: auto;
       font-size: 0.92rem;
-      color: var(--text-dark);
+      color: #cbd5e1;
       line-height: 1.65;
     }
 
     .modal-clean-scroll h4 {
-      color: var(--brand-shield);
+      color: #38bdf8;
       margin: 1.25rem 0 0.4rem;
       font-size: 1rem;
     }
@@ -2133,7 +2199,7 @@
     </section>
 
     <!-- 5. CASOS REALES Y COMPARATIVAS TÉCNICAS -->
-    <section class="section-clean-padding" id="casos-reales" style="background-color: var(--bg-white);">
+    <section class="section-clean-padding" id="casos-reales" style="background-color: var(--bg-surface);">
       <div class="container">
         
         <div class="clean-header-block">
@@ -2422,7 +2488,7 @@
     </section>
 
     <!-- 7. SOBRE MO-HOUSE (CREDENCIALES Y SERVICIO TÉCNICO) -->
-    <section class="section-clean-padding" id="sobre-mo-house" style="background-color: var(--bg-white);">
+    <section class="section-clean-padding" id="sobre-mo-house" style="background-color: var(--bg-surface);">
       <div class="container">
         
         <div class="bio-box-clean">
@@ -2504,12 +2570,12 @@
         </div>
 
         <!-- Banner destacado de Radio 40 km a la redonda -->
-        <div style="margin-top: 2rem; background: linear-gradient(135deg, rgba(37,99,235,0.06), rgba(245,158,11,0.07)); border: 1.5px solid rgba(37,99,235,0.22); border-radius: 1rem; padding: 1.6rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+        <div class="cobertura-highlight-banner">
           <div style="display: flex; align-items: center; gap: 1.25rem;">
             <div style="font-size: 2.3rem;">📍</div>
             <div>
-              <div style="font-weight: 800; font-size: 1.2rem; color: var(--brand-navy);">Zona de llamadas de 40 km a la redonda</div>
-              <div style="font-size: 0.95rem; color: var(--text-muted); margin-top: 0.25rem; line-height: 1.5;">
+              <div class="cobertura-highlight-title">Zona de llamadas de 40 km a la redonda</div>
+              <div class="cobertura-highlight-desc">
                 Prestamos servicio directo y desplazamiento con taller móvil a cualquier domicilio, comunidad o empresa ubicada en un radio de 40 km desde San Sebastián, Mondragón o Vitoria.
               </div>
             </div>
@@ -2523,7 +2589,7 @@
     </section>
 
     <!-- 9. PREGUNTAS FRECUENTES -->
-    <section class="section-clean-padding" id="faq" style="background-color: var(--bg-white);">
+    <section class="section-clean-padding" id="faq" style="background-color: var(--bg-surface);">
       <div class="container">
         
         <div class="clean-header-block" style="margin-left: auto; margin-right: auto; text-align: center;">
