@@ -1,40 +1,36 @@
-# 🛠️ MO-house | Web Oficial (Eibar)
+# 🛠️ Mo-House 🏠 | Web Oficial
 
-Sitio web oficial de alta conversión (CRO), SEO Local y GEO (Generative Engine Optimization) para **MO-house**, el negocio de fontanería de urgencia 24h, desatascos express con maquinaria y averías eléctricas en Eibar y comarca, dirigido por **Mohammed Akhrif** (NIF Z0617960R).
+Sitio web oficial de alta conversión (CRO), SEO Local y GEO (Generative Engine Optimization) para **Mo-House 🏠**, especialistas en fontanería de urgencia 24h, sustitución de bajantes de uralita / fibrocemento por PVC insonorizado, desatascos express con maquinaria propia, averías eléctricas y reformas integrales de baños en **San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda**.
 
 ---
 
 ## 🚀 Características Principales
 
-- **⚡ Velocidad y Rendimiento:** HTML5 semántico puro, CSS3 moderno con variables y Vanilla JS sin dependencias externas ni frameworks pesados.
-- **🎨 Diseño Dark Theme Técnico:** Fondo grafito antracita mate con detalles en azul técnico, acentos amarillos de seguridad y verde WhatsApp.
-- **📞 CRO & Conversión Inmediata:** Click-to-call persistente en `602 38 32 37`, barra flotante inferior en móviles (Sticky Bottom Bar 1-tap) y selector de averías express para WhatsApp.
-- **📍 SEO Local & GEO:** Bloque de Schema.org JSON-LD múltiple (`Plumber`, `Electrician`, `EmergencyService`, `LocalBusiness`, `FAQPage`) optimizado para Eibar, Ermua, Elgoibar, Durango y Bajo Deba.
-- **🖼️ Carpeta de Imágenes Dedicada:** Carpeta `/images/` con fallback visual inteligente para fotos de reformas y trabajos reales.
+- **⚡ Velocidad y Rendimiento:** HTML5 semántico puro, CSS3 moderno y Vanilla JS sin dependencias externas ni frameworks pesados.
+- **🎨 Diseño Institucional y Limpio:** Gama Hydro Blue y acentos Energy Orange/Yellow con estética profesional, accesible y clara.
+- **📞 CRO & Conversión Inmediata:** Click-to-call directo a `602 38 32 37`, barra flotante inferior en móviles (Sticky Bottom Bar 1-tap) y acceso rápido a WhatsApp.
+- **📍 Cobertura y Zona de Llamadas:** San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda.
+- **🖼️ Galería Real:** Muestrario de obras reales con filtrado dinámico y modal Lightbox interactivo.
 
 ---
 
 ## 📁 Estructura
 
 ```text
-Web-moha/
-├── images/                 # Carpeta para colocar fotos reales de trabajos y logo
-│   └── LEEME_IMAGENES.txt  # Guía de nombres y formatos de imágenes
+moha-opcion2/
+├── images/                 # Fotos reales de trabajos y logo oficial
 ├── index.html              # Código completo y unificado de la web
-├── DOCUMENTACION.md        # Documentación técnica completa para desarrolladores / IAs
+├── DOCUMENTACION.md        # Documentación técnica completa
+├── llms.txt                # Resumen para motores de IA generativa
+├── llms-full.txt           # Especificaciones detalladas para IA
+├── sitemap.xml             # Mapa del sitio indexable
 └── README.md               # Este archivo
 ```
 
 ---
 
-## 📖 Instrucciones de Uso y Mantenimiento
-
-Para consultar la guía detallada sobre cómo añadir fotografías, modificar textos o teléfonos, optimizar SEO y desplegar en producción, revisa el archivo [DOCUMENTACION.md](file:///Users/raul/Desktop/Web-moha/DOCUMENTACION.md).
-
----
-
 **Contacto Oficial:**  
-- **Titular:** Mohammed Akhrif (NIF: Z0617960R)  
+- **Identidad:** Mo-House 🏠 (NIF: Z0617960R)  
 - **Teléfono / WhatsApp:** [602 38 32 37](tel:602383237)  
 - **Email:** [mohamed.akhrif2016@gmail.com](mailto:mohamed.akhrif2016@gmail.com)  
-- **Dirección:** MATSARIA Kalea 142, C.P. 20600, Eibar (Gipuzkoa)
+- **Zona de Operación:** San Sebastián · Mondragón · Vitoria (Radio de llamadas 40 km)

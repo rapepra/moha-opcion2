@@ -22,8 +22,8 @@ carpeta y renombrarlas según la siguiente lista recomendada:
 ------------------------------------------------------------------------
 ⭐ IMÁGENES GENERALES Y LOGOTIPO (OPCIONAL):
 ------------------------------------------------------------------------
-- `logo.png`                   -> Logotipo de MO-house (fondo transparente)
-- `mohammed-akhrif.jpg`        -> Foto profesional de Mohammed Akhrif
+- `logo.png`                   -> Logotipo de Mo-House 🏠 (fondo transparente)
+- `equipo-mo-house.jpg`        -> Foto profesional del equipo de Mo-House 🏠
 - `furgoneta-herramientas.jpg` -> Foto del vehículo o equipo técnico
 - `og-image.jpg`               -> Imagen para compartir en WhatsApp/Facebook (1200x630 px)
 

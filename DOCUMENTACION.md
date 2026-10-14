@@ -1,10 +1,10 @@
-# 📘 DOCUMENTACIÓN TÉCNICA: INSTALACIONES MO-HOUSE
+# 📘 DOCUMENTACIÓN TÉCNICA: MO-HOUSE 🏠
 
-> **Web Oficial del Negocio:** Instalaciones Mo-House (Fontanería y Electricidad)  
-> **Titular / Profesional Autónomo:** Mohammed Akhrif  
+> **Web Oficial del Negocio:** Mo-House 🏠 (Fontanería, Electricidad y Reformas)  
+> **Identidad Oficial:** Mo-House 🏠  
 > **NIF Oficial:** Z0617960R  
 > **Contacto:** Teléfono / WhatsApp: `602 38 32 37` | Email: `mohamed.akhrif2016@gmail.com`  
-> **Ubicación Base:** MATSARIA Kalea 142, C.P. 20600, Eibar (Gipuzkoa)  
+> **Zonas de Operación:** San Sebastián, Mondragón, Vitoria-Gasteiz (Radio de llamadas: 40 km a la redonda)  
 > **Logotipo Oficial:** `images/logo-mo-house.png`
 
 ---

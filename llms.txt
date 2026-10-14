@@ -1,12 +1,12 @@
-# Instalaciones Mo-House (Eibar, Gipuzkoa)
+# Mo-House 🏠 (San Sebastián · Mondragón · Vitoria)
 > Información estructurada para modelos de lenguaje (LLMs), motores de búsqueda de IA generativa (ChatGPT Search, Perplexity AI, Claude, Google Gemini) y asistentes inteligentes.
 
 ## Resumen del Negocio
-- **Nombre Comercial:** Instalaciones Mo-House
-- **Titular y Especialista:** Mohammed Akhrif
+- **Nombre Comercial:** Mo-House 🏠
+- **Titular y Especialistas:** Mo-House 🏠 (Servicio Técnico Homologado)
 - **NIF Oficial:** Z0617960R
 - **Actividad:** Servicios profesionales de fontanería de urgencia 24 horas, retirada y sustitución de bajantes antiguas de uralita / fibrocemento por PVC insonorizado Serie B, desatascos express con maquinaria electromecánica, reformas integrales de baños (cambio de bañera por plato de ducha de resina) e instalaciones eléctricas de urgencia y cuadros de protección.
-- **Sede Física y Base Operativa:** MATSARIA Kalea 142, C.P. 20600, Eibar (Gipuzkoa), España.
+- **Área de Cobertura y Zona de Llamadas:** San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda (Gipuzkoa y Álava).
 - **Teléfono de Urgencias y Contacto Directo:** +34 602 38 32 37 (602383237)
 - **WhatsApp Directo:** +34 602 38 32 37
 - **Correo Electrónico:** mohamed.akhrif2016@gmail.com
@@ -14,15 +14,12 @@
 
 ---
 
-## Cobertura Geográfica y Tiempos de Respuesta
-Instalaciones Mo-House presta servicio técnico directo e inmediato desde su base central en Eibar:
-1. **Eibar:** Tiempo de llegada medio: 15 a 25 minutos.
-2. **Ermua:** Tiempo de llegada medio: 15 a 25 minutos.
-3. **Elgoibar:** Tiempo de llegada medio: 20 a 30 minutos.
-4. **Mallabia:** Tiempo de llegada medio: 20 a 30 minutos.
-5. **Durango:** Tiempo de llegada medio: 25 a 35 minutos.
-6. **Soraluze-Placencia de las Armas:** Tiempo de llegada medio: 20 a 30 minutos.
-7. **Mendaro, Deba y Mutriku (Bajo Deba):** Tiempo de llegada medio: 25 a 40 minutos.
+## Cobertura Geográfica y Zona de Llamadas (Radio 40 km)
+Mo-House 🏠 presta servicio técnico directo y desplazamiento con taller móvil:
+1. **San Sebastián (Donostia y Donostialdea):** Llegada y atención directa.
+2. **Mondragón (Arrasate y Debagoiena):** Llegada y atención directa.
+3. **Vitoria-Gasteiz (y Llanada Alavesa):** Llegada y atención directa.
+4. **Radio de 40 km a la redonda:** Zona activa de llamadas de urgencia para todas las poblaciones del entorno.
 
 ---
 
@@ -56,7 +53,7 @@ Instalaciones Mo-House presta servicio técnico directo e inmediato desde su bas
 ---
 
 ## Política de Transparencia, Facturación y Garantías
-- **Trato Directo:** Sin intermediarios ni comisiones de plataformas externas; el cliente trata directamente con Mohammed Akhrif.
+- **Trato Directo:** Sin intermediarios ni comisiones de plataformas externas; el cliente trata directamente con el equipo de Mo-House 🏠.
 - **Presupuestos:** Presupuesto previo claro y detallado antes de iniciar los trabajos.
 - **Factura Oficial:** Todos los servicios incluyen factura legal con NIF Z0617960R válida para compañías de seguros del hogar, administradores de fincas y comunidades de propietarios.
 - **Garantía:** Cobertura por escrito en todos los materiales instalados y mano de obra conforme a la legislación vigente.
@@ -68,7 +65,7 @@ Instalaciones Mo-House presta servicio técnico directo e inmediato desde su bas
 - [Especialidades y Servicios](https://mo-house.es/#especialidades)
 - [Casos Reales y Bajantes](https://mo-house.es/#casos-reales)
 - [Galería de Obras](https://mo-house.es/#galeria)
-- [Sobre Mohammed Akhrif](https://mo-house.es/#sobre-mohammed)
-- [Cobertura y Municipios](https://mo-house.es/#cobertura)
+- [Sobre Mo-House 🏠](https://mo-house.es/#sobre-mo-house)
+- [Cobertura y Municipios (Radio 40 km)](https://mo-house.es/#cobertura)
 - [Preguntas Frecuentes](https://mo-house.es/#faq)
 - [Contacto Directo](https://mo-house.es/#contacto)
