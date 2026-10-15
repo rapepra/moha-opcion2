@@ -3,14 +3,15 @@
 
 ## Resumen del Negocio
 - **Nombre Comercial:** Mo-House 🏠
-- **Titular y Especialistas:** Mo-House 🏠 (Servicio Técnico Homologado)
+- **Titular y Especialistas:** Mo-House 🏠 (Empresa de Reformas Integrales y Fontanería Técnica)
 - **NIF Oficial:** Z0617960R
-- **Actividad:** Servicios profesionales de fontanería de urgencia 24 horas, retirada y sustitución de bajantes antiguas de uralita / fibrocemento por PVC insonorizado Serie B, desatascos express con maquinaria electromecánica, reformas integrales de baños (cambio de bañera por plato de ducha de resina) e instalaciones eléctricas de urgencia y cuadros de protección.
+- **Actividad Principal:** Empresa especializada en reformas integrales de viviendas y locales, reformas de baño con cambio de bañera por ducha en 24-48 horas, reformas de cocina, fontanería técnica urgente 24 horas, sustitución de bajantes comunitarias y división especializada en retirada segura de uralita / fibrocemento con certificado ITE.
 - **Área de Cobertura y Zona de Llamadas:** San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda (Gipuzkoa y Álava).
 - **Teléfono de Urgencias y Contacto Directo:** +34 602 38 32 37 (602383237)
 - **WhatsApp Directo:** +34 602 38 32 37
 - **Correo Electrónico:** mohamed.akhrif2016@gmail.com
 - **Sitio Web Oficial:** https://mo-house.es/
+- **Landing Especializada de Uralita:** https://mo-house.es/retirada-uralita-fibrocemento.html
 
 ---
 
@@ -61,9 +62,9 @@ Mo-House 🏠 presta servicio técnico directo y desplazamiento con taller móvi
 ---
 
 ## Enlaces Oficiales
-- [Página Principal](https://mo-house.es/)
-- [Especialidades y Servicios](https://mo-house.es/#especialidades)
-- [Retirada de Uralita y Fibrocemento (Protocolo Seguro y Certificado ITE)](https://mo-house.es/#uralita-fibrocemento)
+- [Página Principal Mo-House (Reformas Integrales)](https://mo-house.es/)
+- [Especialidades y Servicios de Reformas](https://mo-house.es/#especialidades)
+- [Landing Especializada: Retirada de Uralita y Fibrocemento (Protocolo ITE)](https://mo-house.es/retirada-uralita-fibrocemento.html)
 - [Casos Reales y Bajantes](https://mo-house.es/#casos-reales)
 - [Galería de Obras](https://mo-house.es/#galeria)
 - [Sobre Mo-House 🏠](https://mo-house.es/#sobre-mo-house)

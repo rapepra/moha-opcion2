@@ -7,7 +7,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mo-house.es/#uralita-fibrocemento</loc>
+    <loc>https://mo-house.es/retirada-uralita-fibrocemento.html</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -16,6 +16,12 @@
     <loc>https://mo-house.es/#especialidades</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mo-house.es/#uralita-fibrocemento</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
