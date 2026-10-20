@@ -1,36 +1,73 @@
-# 🛠️ Mo-House 🏠 | Web Oficial
+# 🛠️ MOHAUS | Web Oficial & Documentación
 
-Sitio web oficial de alta conversión (CRO), SEO Local y GEO (Generative Engine Optimization) para **Mo-House 🏠**, especialistas en fontanería de urgencia 24h, sustitución de bajantes de uralita / fibrocemento por PVC insonorizado, desatascos express con maquinaria propia, averías eléctricas y reformas integrales de baños en **San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda**.
+Sitio web oficial de alta conversión (CRO), SEO Local y GEO (Generative Engine Optimization) para **MOHAUS** — *Instalaciones, soluciones y confianza*.
 
----
-
-## 🚀 Características Principales
-
-- **⚡ Velocidad y Rendimiento:** HTML5 semántico puro, CSS3 moderno y Vanilla JS sin dependencias externas ni frameworks pesados.
-- **🎨 Diseño Institucional y Limpio:** Gama Hydro Blue y acentos Energy Orange/Yellow con estética profesional, accesible y clara.
-- **📞 CRO & Conversión Inmediata:** Click-to-call directo a `602 38 32 37`, barra flotante inferior en móviles (Sticky Bottom Bar 1-tap) y acceso rápido a WhatsApp.
-- **📍 Cobertura y Zona de Llamadas:** San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda.
-- **🖼️ Galería Real:** Muestrario de obras reales con filtrado dinámico y modal Lightbox interactivo.
+Especialistas en **Fontanería general · Climatización · Aerotermia · Calefacción**, con servicio en **San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda** (Gipuzkoa y Álava).
 
 ---
 
-## 📁 Estructura
+## 🎯 Mensaje Corporativo
+
+> *"En MOHAUS ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción.*  
+> *Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad.*  
+> *También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas.*  
+> ***MOHAUS — Instalaciones, soluciones y confianza.***"
+
+---
+
+## 🏗️ Jerarquía de Servicios y Especialidades
+
+### 1. FONTANERÍA GENERAL (Actividad Principal)
+- Instalaciones completas de fontanería y saneamiento.
+- Montaje y renovación de instalaciones.
+- Localización y reparación de fugas.
+- Desatascos y problemas de evacuación.
+- Reparaciones generales de fontanería.
+- Sustitución de tuberías, grifería y sanitarios.
+- Mantenimiento de instalaciones.
+
+### 2. CLIMATIZACIÓN, AEROTERMIA Y CALEFACCIÓN (Actividad Principal)
+- Instalación de aire acondicionado.
+- Instalaciones de aerotermia.
+- Instalación y renovación de calefacción.
+- Montaje de radiadores y circuitos.
+- Adaptación y mejora de instalaciones existentes.
+
+### 3. BAJANTES Y SANEAMIENTO (Especialidad Técnica)
+- Sustitución y renovación de bajantes.
+- Reparación de tuberías y redes de evacuación.
+- Gestión de retirada de bajantes de fibrocemento con amianto mediante empresa autorizada.
+- Coordinación de los trabajos de retirada y gestión de residuos.
+- Instalación de nuevas bajantes y conexiones de saneamiento.
+
+### 4. RENOVACIÓN DE BAÑOS Y COCINAS (Servicio Complementario)
+- Renovación de instalaciones de agua y desagües.
+- Adaptación y redistribución de instalaciones.
+- Gestión y coordinación de gremios.
+- Renovaciones completas de baños y cocinas, según las necesidades del cliente.
+
+---
+
+## 📁 Estructura del Proyecto
 
 ```text
 moha-opcion2/
-├── images/                 # Fotos reales de trabajos y logo oficial
-├── index.html              # Código completo y unificado de la web
-├── DOCUMENTACION.md        # Documentación técnica completa
-├── llms.txt                # Resumen para motores de IA generativa
-├── llms-full.txt           # Especificaciones detalladas para IA
-├── sitemap.xml             # Mapa del sitio indexable
-└── README.md               # Este archivo
+├── images/                 # Fotografías reales de instalaciones y recursos
+├── index.html              # Código unificado (HTML5, CSS moderno, Schema.org)
+├── DOCUMENTACION.md        # Guía técnica de identidad y arquitectura
+├── llms.txt                # Resumen estructurado para motores de IA (ChatGPT, Claude, Perplexity)
+├── llms-full.txt           # Especificaciones detalladas para IA y asistentes
+├── sitemap.xml             # Mapa del sitio optimizado para indexación
+├── robots.txt              # Directivas de rastreo para buscadores e IA
+└── README.md               # Este archivo informativo
 ```
 
 ---
 
-**Contacto Oficial:**  
-- **Identidad:** Mo-House 🏠 (NIF: Z0617960R)  
-- **Teléfono / WhatsApp:** [602 38 32 37](tel:602383237)  
-- **Email:** [mohamed.akhrif2016@gmail.com](mailto:mohamed.akhrif2016@gmail.com)  
-- **Zona de Operación:** San Sebastián · Mondragón · Vitoria (Radio de llamadas 40 km)
+## 📞 Datos de Contacto y Facturación
+
+- **Nombre Comercial:** MOHAUS
+- **NIF Oficial:** Z0617960R
+- **Teléfono / WhatsApp:** [602 38 32 37](tel:602383237)
+- **Email:** [mohamed.akhrif2016@gmail.com](mailto:mohamed.akhrif2016@gmail.com)
+- **Área de Cobertura:** San Sebastián · Mondragón · Vitoria-Gasteiz (Radio 40 km)

@@ -1,37 +1,37 @@
 ========================================================================
-CARPETA DE IMÁGENES - MO-HOUSE (EIBAR)
+CARPETA DE IMÁGENES - MOHAUS
 ========================================================================
 
-Aquí puedes colocar todas las fotografías reales de tus trabajos, reformas,
-desatascos, averías y herramientas.
+Aquí puedes colocar todas las fotografías reales de tus instalaciones,
+fontanería, climatización, aerotermia, calefacción y reformas.
 
-El archivo `index.html` ya está configurado para leer automáticamente estas
-imágenes por su nombre de archivo. Solo tienes que arrastrar tus fotos a esta
-carpeta y renombrarlas según la siguiente lista recomendada:
+El archivo `index.html` ya está configurado para mostrar y priorizar estas
+imágenes. Solo tienes que arrastrar tus fotos a esta carpeta y renombrarlas:
 
 ------------------------------------------------------------------------
-📸 NOMBRES DE ARCHIVO RECOMENDADOS PARA LA GALERÍA / TRABAJOS:
+📸 NOMBRES DE ARCHIVO RECOMENDADOS PARA LA WEB Y GALERÍA:
 ------------------------------------------------------------------------
-1. `trabajo-bano-1.jpg`       -> Foto de reforma de baño / plato de ducha
-2. `trabajo-desatasco-1.jpg`   -> Foto de desatasco express con máquina
-3. `trabajo-cuadro-1.jpg`      -> Foto de cuadro eléctrico / diferencial
-4. `trabajo-tuberia-1.jpg`     -> Foto de reparación de tubería / bajante
-5. `trabajo-cocina-1.jpg`      -> Foto de fontanería en cocina / fregadero
-6. `trabajo-termo-1.jpg`       -> Foto de instalación o cambio de termo eléctrico
+1. `trabajo-fontaneria-1.jpg`    -> Instalaciones de fontanería y colectores
+2. `trabajo-aerotermia-1.jpg`    -> Unidad de aerotermia o bomba de calor
+3. `trabajo-clima-1.jpg`         -> Instalación de aire acondicionado
+4. `trabajo-calefaccion-1.jpg`   -> Montaje de radiadores / caldera
+5. `trabajo-bajante-1.jpg`       -> Sustitución de bajante PVC insonorizado
+6. `trabajo-desatasco-1.jpg`     -> Desatasco técnico con maquinaria
+7. `trabajo-bano-1.jpg`          -> Renovación complementaria de baño
+8. `trabajo-cocina-1.jpg`        -> Renovación complementaria de cocina
 
 ------------------------------------------------------------------------
 ⭐ IMÁGENES GENERALES Y LOGOTIPO (OPCIONAL):
 ------------------------------------------------------------------------
-- `logo.png`                   -> Logotipo de Mo-House 🏠 (fondo transparente)
-- `equipo-mo-house.jpg`        -> Foto profesional del equipo de Mo-House 🏠
-- `furgoneta-herramientas.jpg` -> Foto del vehículo o equipo técnico
-- `og-image.jpg`               -> Imagen para compartir en WhatsApp/Facebook (1200x630 px)
+- `logo.png`                     -> Logotipo de MOHAUS (fondo transparente)
+- `equipo-mohaus.jpg`            -> Foto del profesional / equipo MOHAUS
+- `furgoneta-herramientas.jpg`   -> Taller móvil y herramientas
+- `og-image.jpg`                 -> Imagen para compartir en WhatsApp (1200x630 px)
 
 ------------------------------------------------------------------------
 💡 CONSEJOS PARA MEJOR RENDIMIENTO:
 ------------------------------------------------------------------------
-- Formatos recomendados: `.jpg`, `.jpeg`, `.webp` o `.png`.
-- Si una foto aún no existe en esta carpeta, la web mostrará automáticamente
-  una ilustración técnica con degradado moderno para que la página nunca
-  se vea rota o incompleta.
+- Formatos recomendados: `.webp`, `.jpg` o `.png`.
+- Si una foto no existe en la carpeta, la web cuenta con fallbacks visuales
+  con degradados modernos y patrones para que siempre luzca impecable.
 ========================================================================

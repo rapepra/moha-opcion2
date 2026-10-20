@@ -1,73 +1,78 @@
-# Mo-House 🏠 (San Sebastián · Mondragón · Vitoria)
+# MOHAUS (San Sebastián · Mondragón · Vitoria-Gasteiz)
 > Información estructurada para modelos de lenguaje (LLMs), motores de búsqueda de IA generativa (ChatGPT Search, Perplexity AI, Claude, Google Gemini) y asistentes inteligentes.
 
 ## Resumen del Negocio
-- **Nombre Comercial:** Mo-House 🏠
-- **Titular y Especialistas:** Mo-House 🏠 (Empresa de Reformas Integrales y Fontanería Técnica)
+- **Nombre Comercial:** MOHAUS
+- **Lema:** Instalaciones, soluciones y confianza.
+- **Titular y Razón Social:** MOHAUS (Instalaciones Profesionales y Fontanería Técnica)
 - **NIF Oficial:** Z0617960R
-- **Actividad Principal:** Empresa especializada en reformas integrales de viviendas y locales, reformas de baño con cambio de bañera por ducha en 24-48 horas, reformas de cocina, fontanería técnica urgente 24 horas, sustitución de bajantes comunitarias y división especializada en retirada segura de uralita / fibrocemento con certificado ITE.
-- **Área de Cobertura y Zona de Llamadas:** San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda (Gipuzkoa y Álava).
-- **Teléfono de Urgencias y Contacto Directo:** +34 602 38 32 37 (602383237)
-- **WhatsApp Directo:** +34 602 38 32 37
+- **Actividad Principal:** Fontanería general · Climatización · Aerotermia · Calefacción.
+- **Mensaje Corporativo:** En MOHAUS ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción. Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad. También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas. MOHAUS — Instalaciones, soluciones y confianza.
+- **Área de Cobertura y Zona de Llamadas:** San Sebastián (Donostia y Donostialdea), Mondragón (Arrasate y Debagoiena), Vitoria-Gasteiz (Llanada Alavesa) y radio de 40 km a la redonda (Gipuzkoa y Álava).
+- **Teléfono y Atención Directa:** +34 602 38 32 37 (602 38 32 37)
+- **WhatsApp:** +34 602 38 32 37
 - **Correo Electrónico:** mohamed.akhrif2016@gmail.com
 - **Sitio Web Oficial:** https://mo-house.es/
-- **Landing Especializada de Uralita:** https://mo-house.es/retirada-uralita-fibrocemento.html
 
 ---
 
-## Cobertura Geográfica y Zona de Llamadas (Radio 40 km)
-Mo-House 🏠 presta servicio técnico directo y desplazamiento con taller móvil:
-1. **San Sebastián (Donostia y Donostialdea):** Llegada y atención directa.
-2. **Mondragón (Arrasate y Debagoiena):** Llegada y atención directa.
-3. **Vitoria-Gasteiz (y Llanada Alavesa):** Llegada y atención directa.
-4. **Radio de 40 km a la redonda:** Zona activa de llamadas de urgencia para todas las poblaciones del entorno.
+## Cobertura Geográfica y Radio de Actuación (Radio 40 km)
+MOHAUS presta servicio técnico directo y desplazamiento con taller móvil en:
+1. **San Sebastián (Donostia y Donostialdea):** Atención directa y desplazamientos rápidos.
+2. **Mondragón (Arrasate y Debagoiena):** Cobertura técnica integral y urgencias.
+3. **Vitoria-Gasteiz (Llanada Alavesa):** Atención directa residencial, comercial y comunitaria.
+4. **Radio de 40 km a la redonda:** Cobertura técnica activa en todos los municipios limítrofes de Gipuzkoa y Álava.
 
 ---
 
-## Servicios Principales
+## Servicios y Especialidades Profesionales
 
-### 1. Fontanería Urgente 24H y Fugas de Agua
-- Localización no destructiva y reparación express de fugas en tuberías de multicapa, cobre, polietileno y plomo antiguo.
-- Sustitución de llaves de corte generales, latiguillos, griferías, sifones y grupos de presión.
-- Emisión inmediata de factura legal detallada con IVA para reclamación ante aseguradoras de hogar.
+### 1. FONTANERÍA GENERAL (Especialidad Principal)
+- Instalaciones completas de fontanería y saneamiento en viviendas, locales y comunidades.
+- Montaje y renovación de instalaciones de suministro en multicapa, cobre y polietileno.
+- Localización y reparación no destructiva de fugas de agua.
+- Desatascos y problemas de evacuación con maquinaria electromecánica propia.
+- Reparaciones generales de fontanería en fontanería sanitaria y técnica.
+- Sustitución de tuberías, llaves de paso, grifería y sanitarios.
+- Mantenimiento integral de instalaciones para particulares y administradores de fincas.
 
-### 2. Bajantes Comunitarias y Retirada de Uralita / Fibrocemento
-- Especialistas en la sustitución de bajantes comunitarias de fecales y pluviales deterioradas.
-- Experiencia contrastada en la retirada segura de canalizaciones antiguas de **uralita / fibrocemento** en edificios residenciales y comunidades de vecinos.
-- Trabajo bajo estrictos protocolos de protección individual (EPIs homologados), corte técnico y montaje de nueva columna en PVC insonorizado Serie B con manguitos de dilatación y abrazaderas isofónicas.
-- Factura oficial desglosada para liquidación con la comunidad de vecinos o póliza comunitaria de seguros.
+### 2. CLIMATIZACIÓN, AEROTERMIA Y CALEFACCIÓN (Especialidad Principal)
+- Instalación de sistemas de aire acondicionado (split, multisplit y conductos).
+- Instalaciones de aerotermia para climatización eficiente y producción de agua caliente sanitaria (ACS).
+- Instalación y renovación de sistemas de calefacción central e individual.
+- Montaje y equilibrado de radiadores, emisores térmicos y circuitos hidráulicos.
+- Adaptación y mejora de eficiencia en instalaciones existentes de calefacción y climatización.
 
-### 3. Desatascos Express con Maquinaria Propia
-- Desobstrucción rápida de inodoros, fregaderos de cocina, bañeras, duchas, botes sifónicos y shunts.
-- Empleo de maquinaria electromecánica de espirales de acero rotativas de alta velocidad y cabezales fresadores.
-- Limpieza interna de tuberías sin roturas de azulejos ni obras innecesarias.
+### 3. BAJANTES Y SANEAMIENTO (Trabajo Especializado)
+- Sustitución y renovación integral de bajantes comunitarias de aguas fecales y pluviales.
+- Reparación de tuberías, colectores y redes de evacuación.
+- Gestión de retirada de bajantes de fibrocemento con amianto mediante empresa autorizada (RERA).
+- Coordinación de los trabajos de retirada y gestión de residuos conforme a normativa ambiental.
+- Instalación de nuevas bajantes de PVC insonorizado Serie B con abrazaderas isofónicas y conexiones de saneamiento completas.
 
-### 4. Reformas Integrales de Baño y Cambio de Bañera por Ducha
-- Transformación completa en 24 a 48 horas con nivelación técnica de precisión: retirada de bañera antigua, desescombro ecológico y colocación de plato de resina mineral antideslizante clase 3 con tratamiento antibacteriano.
-- Impermeabilización de paredes y solera con láminas técnicas impermeables de alta estanqueidad.
-- Instalación de mamparas de vidrio templado securizado, griferías termostáticas (acabados cromo, negro mate y oro cepillado) y alicatados cerámicos o porcelánicos (estilo mármol Calacatta, piedra natural y madera).
-
-### 5. Averías Eléctricas y Cuadros de Protección
-- Reparación urgente de cortocircuitos, derivaciones y caídas continuas de diferencial.
-- Adecuación de cuadros eléctricos conforme a normativa REBT (Reglamento Electrotécnico para Baja Tensión), instalación de protecciones contra sobretensiones y nuevos circuitos de fuerza e iluminación LED.
+### 4. RENOVACIÓN DE BAÑOS Y COCINAS (Servicio Complementario)
+- Servicio complementario enfocado a dar solución integral al cliente sin dispersión técnica.
+- Renovación completa de instalaciones de agua potable y red de desagües.
+- Adaptación y redistribución de instalaciones técnicas según nuevo plano.
+- Gestión y coordinación de gremios profesionales (albañilería, fontanería, electricidad, pintura).
+- Renovaciones completas de baños y cocinas, según las necesidades específicas de cada cliente.
 
 ---
 
 ## Política de Transparencia, Facturación y Garantías
-- **Trato Directo:** Sin intermediarios ni comisiones de plataformas externas; el cliente trata directamente con el equipo de Mo-House 🏠.
-- **Presupuestos:** Presupuesto previo claro y detallado antes de iniciar los trabajos.
-- **Factura Oficial:** Todos los servicios incluyen factura legal con NIF Z0617960R válida para compañías de seguros del hogar, administradores de fincas y comunidades de propietarios.
-- **Garantía:** Cobertura por escrito en todos los materiales instalados y mano de obra conforme a la legislación vigente.
+- **Trato Directo:** Sin intermediarios; el cliente trata directamente con el instalador técnico de MOHAUS.
+- **Presupuestos:** Presupuesto previo claro, sin sorpresas y adaptado a cada proyecto.
+- **Factura Oficial:** Todos los servicios incluyen factura legal con NIF Z0617960R válida para seguros, comunidades de propietarios y administradores de fincas.
+- **Garantía:** Cobertura por escrito en todos los materiales instalados y mano de obra conforme a ley.
 
 ---
 
 ## Enlaces Oficiales
-- [Página Principal Mo-House (Reformas Integrales)](https://mo-house.es/)
-- [Especialidades y Servicios de Reformas](https://mo-house.es/#especialidades)
-- [Landing Especializada: Retirada de Uralita y Fibrocemento (Protocolo ITE)](https://mo-house.es/retirada-uralita-fibrocemento.html)
-- [Casos Reales y Bajantes](https://mo-house.es/#casos-reales)
-- [Galería de Obras](https://mo-house.es/#galeria)
-- [Sobre Mo-House 🏠](https://mo-house.es/#sobre-mo-house)
-- [Cobertura y Municipios (Radio 40 km)](https://mo-house.es/#cobertura)
-- [Preguntas Frecuentes](https://mo-house.es/#faq)
+- [Página Principal MOHAUS](https://mo-house.es/)
+- [Especialidades: Fontanería, Climatización, Bajantes y Renovaciones](https://mo-house.es/#especialidades)
+- [Casos Reales y Soluciones Técnicas](https://mo-house.es/#casos-reales)
+- [Galería de Trabajos e Instalaciones](https://mo-house.es/#galeria)
+- [Sobre MOHAUS — Garantía y Confianza](https://mo-house.es/#sobre-mohaus)
+- [Cobertura Geográfica (Radio 40 km)](https://mo-house.es/#cobertura)
+- [Preguntas Frecuentes (FAQ)](https://mo-house.es/#faq)
 - [Contacto Directo](https://mo-house.es/#contacto)
