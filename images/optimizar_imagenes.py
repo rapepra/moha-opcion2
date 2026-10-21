@@ -2,7 +2,9 @@ import re, os, sys
 from PIL import Image, ImageOps
 root = sys.argv[1]
 html = open(os.path.join(root, "index.html"), encoding="utf-8").read()
-srcs = sorted(set(re.findall(r'images/([a-z0-9-]+)\.jpg', html)))
+# Fotos usadas en la web: referencias directas (images/foto.jpg) o ya optimizadas (images/opt/foto-800.jpg)
+names = set(re.findall(r'images/([a-z0-9-]+)\.jpg', html)) | set(re.findall(r'images/opt/([a-z0-9-]+)-800\.jpg', html))
+srcs = sorted(n for n in names if os.path.exists(os.path.join(root, "images", n + ".jpg")))
 out = os.path.join(root, "images", "opt"); os.makedirs(out, exist_ok=True)
 def load(p):
     im = ImageOps.exif_transpose(Image.open(p)); return im.convert("RGB")

@@ -52,15 +52,54 @@ Especialistas en **Fontanería general · Climatización · Aerotermia · Calefa
 
 ```text
 moha-opcion2/
-├── images/                 # Fotografías reales de instalaciones y recursos
-├── index.html              # Código unificado (HTML5, CSS moderno, Schema.org)
-├── DOCUMENTACION.md        # Guía técnica de identidad y arquitectura
-├── llms.txt                # Resumen estructurado para motores de IA (ChatGPT, Claude, Perplexity)
-├── llms-full.txt           # Especificaciones detalladas para IA y asistentes
-├── sitemap.xml             # Mapa del sitio optimizado para indexación
-├── robots.txt              # Directivas de rastreo para buscadores e IA
-└── README.md               # Este archivo informativo
+├── index.html              # Página principal (HTML5, CSS inline, Schema.org JSON-LD)
+├── 404.html                # Página de error (noindex) con botones de contacto
+├── images/opt/             # Imágenes optimizadas que sirve la web (AVIF/WebP/JPG)
+├── images/                 # Fotos originales (no se publican) + optimizar_imagenes.py
+├── fonts/                  # Plus Jakarta Sans autoalojada (woff2)
+├── llms.txt / llms-full.txt# Información estructurada para IAs (ChatGPT, Claude, Perplexity, Gemini)
+├── sitemap.xml / robots.txt# Indexación para buscadores e IAs
+├── _headers                # Cabeceras de Cloudflare Pages (caché, seguridad, noindex en *.pages.dev)
+├── site.webmanifest, favicon.ico
+├── build.sh                # Genera dist/ solo con lo publicable
+└── README.md, DOCUMENTACION.md
 ```
+
+---
+
+## 🚀 Despliegue en Cloudflare Pages
+
+**1. Crear el proyecto** — Workers & Pages → Create → Pages → *Connect to Git* → repo `moha-opcion2`:
+- Production branch: la rama que se publique (p. ej. `main` tras fusionar `mo-house-seo-optimization`)
+- Framework preset: **None**
+- Build command: `bash build.sh`
+- Build output directory: `dist`
+
+**2. Dominio** — Custom domains → añadir `mo-house.es` y `www.mo-house.es`.
+Después, en el dominio: Rules → Redirect Rules → *Redirect from WWW to root* (301) para que solo exista `https://mo-house.es/`.
+
+**3. Ajustes del dominio en Cloudflare (importantes para SEO/GEO):**
+- SSL/TLS → Edge Certificates → **Always Use HTTPS: On**
+- Security → Bots → **Block AI bots / AI Scrapers and Crawlers: Off** (si está activo, ChatGPT, Claude o Perplexity no podrán leer la web)
+- AI Crawl Control / *Manage robots.txt*: **desactivado** (si no, Cloudflare reescribe nuestro robots.txt)
+- Caching → Configuration → **Crawler Hints: On** (avisa a Bing y otros vía IndexNow)
+- Speed → **Rocket Loader: Off** (puede romper el menú y la galería)
+- Scrape Shield → **Email Obfuscation: Off** (puede alterar el email en la página)
+
+**4. Buscadores** (una vez publicada):
+- Google Search Console → añadir propiedad de **dominio** `mo-house.es` (verificación por DNS, Cloudflare la añade sola) → enviar `https://mo-house.es/sitemap.xml`
+- Bing Webmaster Tools → *Importar desde Google Search Console* (Bing alimenta a ChatGPT Search y Copilot)
+- Probar los datos estructurados: https://search.google.com/test/rich-results
+
+**5. Conversiones (SEM)** — cada clic en llamar/WhatsApp envía `lead_click` al `dataLayer`. Para medirlo en Google Ads/GA4, añadir el contenedor de Google Tag Manager y crear un activador de evento personalizado `lead_click`.
+
+---
+
+## 🖼️ Añadir o cambiar fotos
+
+1. Copia la foto a `images/` con un nombre descriptivo (`instalacion-aerotermia-bergara.jpg`).
+2. Ejecuta `python3 images/optimizar_imagenes.py .` (genera las versiones en `images/opt/`).
+3. Usa en `index.html` el mismo bloque `<picture>` que las demás fotos.
 
 ---
 
