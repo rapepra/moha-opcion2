@@ -35,3 +35,9 @@ imágenes. Solo tienes que arrastrar tus fotos a esta carpeta y renombrarlas:
 - Si una foto no existe en la carpeta, la web cuenta con fallbacks visuales
   con degradados modernos y patrones para que siempre luzca impecable.
 ========================================================================
+
+## Imágenes optimizadas (images/opt/)
+La web sirve las versiones de `images/opt/` (AVIF/WebP 480 y 800 px, JPG 800 px de respaldo,
+WebP 1200 px para el lightbox), no los JPG originales. Al añadir o cambiar una foto en index.html,
+regenera las variantes con:  python3 images/optimizar_imagenes.py .
+y usa el mismo bloque <picture> que el resto de imágenes.
