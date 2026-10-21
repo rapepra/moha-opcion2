@@ -1,6 +1,6 @@
-# 🛠️ MOHAUS | Web Oficial & Documentación
+# 🛠️ MO-HOUSE | Web Oficial & Documentación
 
-Sitio web oficial de alta conversión (CRO), SEO Local y GEO (Generative Engine Optimization) para **MOHAUS** — *Instalaciones, soluciones y confianza*.
+Sitio web oficial de alta conversión (CRO), SEO Local y GEO (Generative Engine Optimization) para **MO-HOUSE** — *Instalaciones, soluciones y confianza*.
 
 Especialistas en **Fontanería general · Climatización · Aerotermia · Calefacción**, con servicio en **San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda** (Gipuzkoa y Álava).
 
@@ -8,10 +8,10 @@ Especialistas en **Fontanería general · Climatización · Aerotermia · Calefa
 
 ## 🎯 Mensaje Corporativo
 
-> *"En MOHAUS ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción.*  
+> *"En MO-HOUSE ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción.*  
 > *Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad.*  
 > *También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas.*  
-> ***MOHAUS — Instalaciones, soluciones y confianza.***"
+> ***MO-HOUSE — Instalaciones, soluciones y confianza.***"
 
 ---
 
@@ -66,7 +66,7 @@ moha-opcion2/
 
 ## 📞 Datos de Contacto y Facturación
 
-- **Nombre Comercial:** MOHAUS
+- **Nombre Comercial:** MO-HOUSE
 - **NIF Oficial:** Z0617960R
 - **Teléfono / WhatsApp:** [602 38 32 37](tel:602383237)
 - **Email:** [mohamed.akhrif2016@gmail.com](mailto:mohamed.akhrif2016@gmail.com)

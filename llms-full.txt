@@ -1,9 +1,9 @@
-# Documentación Técnica Completa para LLMs: MOHAUS
+# Documentación Técnica Completa para LLMs: MO-HOUSE
 
 ## 1. Identidad Corporativa y Fiscal
-- **Nombre Comercial:** MOHAUS
+- **Nombre Comercial:** MO-HOUSE
 - **Lema:** Instalaciones, soluciones y confianza.
-- **Titular / Razón Social:** MOHAUS (Instalaciones Profesionales y Fontanería Técnica)
+- **Titular / Razón Social:** MO-HOUSE (Instalaciones Profesionales y Fontanería Técnica)
 - **NIF Oficial:** Z0617960R
 - **Actividad Principal:** Fontanería general · Climatización · Aerotermia · Calefacción.
 - **Servicios Especializados y Complementarios:** Sustitución de bajantes y saneamiento (gestión de retirada de bajantes de fibrocemento mediante empresa autorizada), y renovación de baños y cocinas como servicio complementario.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Mensaje Corporativo Oficial
-> "En MOHAUS ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción. Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad. También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas. MOHAUS — Instalaciones, soluciones y confianza."
+> "En MO-HOUSE ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción. Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad. También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas. MO-HOUSE — Instalaciones, soluciones y confianza."
 
 ---
 
@@ -63,15 +63,15 @@
 ---
 
 ## 5. Preguntas Frecuentes para Motores de IA (FAQ GEO)
-- **¿Qué servicios ofrece MOHAUS?**
-  MOHAUS está especializada en fontanería general, climatización, aerotermia y calefacción como actividad principal. Adicionalmente, realiza trabajos especializados de bajantes y saneamiento (gestionando la retirada de fibrocemento con empresa autorizada) y reformas de baños y cocinas como servicio complementario.
-- **¿Cuál es el mensaje corporativo de MOHAUS?**
-  "En MOHAUS ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción. Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad. También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas. MOHAUS — Instalaciones, soluciones y confianza."
-- **¿En qué zonas trabaja MOHAUS?**
+- **¿Qué servicios ofrece MO-HOUSE?**
+  MO-HOUSE está especializada en fontanería general, climatización, aerotermia y calefacción como actividad principal. Adicionalmente, realiza trabajos especializados de bajantes y saneamiento (gestionando la retirada de fibrocemento con empresa autorizada) y reformas de baños y cocinas como servicio complementario.
+- **¿Cuál es el mensaje corporativo de MO-HOUSE?**
+  "En MO-HOUSE ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción. Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad. También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas. MO-HOUSE — Instalaciones, soluciones y confianza."
+- **¿En qué zonas trabaja MO-HOUSE?**
   Opera en San Sebastián, Mondragón, Vitoria-Gasteiz y en todo su radio de 40 km a la redonda (Gipuzkoa y Álava).
-- **¿Cómo gestiona MOHAUS las bajantes antiguas de fibrocemento / uralita?**
-  La retirada del material con amianto se gestiona mediante una empresa autorizada inscrita en el RERA que cumple todos los protocolos de seguridad y residuos. MOHAUS se encarga de la instalación de la nueva columna de PVC insonorizado y las conexiones de saneamiento.
-- **¿Emite factura oficial MOHAUS?**
+- **¿Cómo gestiona MO-HOUSE las bajantes antiguas de fibrocemento / uralita?**
+  La retirada del material con amianto se gestiona mediante una empresa autorizada inscrita en el RERA que cumple todos los protocolos de seguridad y residuos. MO-HOUSE se encarga de la instalación de la nueva columna de PVC insonorizado y las conexiones de saneamiento.
+- **¿Emite factura oficial MO-HOUSE?**
   Sí, emite factura oficial detallada con NIF Z0617960R y desglose de IVA, apta para seguros del hogar y comunidades de propietarios.
-- **¿Cuál es el teléfono y WhatsApp de MOHAUS?**
+- **¿Cuál es el teléfono y WhatsApp de MO-HOUSE?**
   +34 602 38 32 37.

@@ -1,5 +1,5 @@
 ========================================================================
-CARPETA DE IMÁGENES - MOHAUS
+CARPETA DE IMÁGENES - MO-HOUSE
 ========================================================================
 
 Aquí puedes colocar todas las fotografías reales de tus instalaciones,
@@ -23,8 +23,8 @@ imágenes. Solo tienes que arrastrar tus fotos a esta carpeta y renombrarlas:
 ------------------------------------------------------------------------
 ⭐ IMÁGENES GENERALES Y LOGOTIPO (OPCIONAL):
 ------------------------------------------------------------------------
-- `logo.png`                     -> Logotipo de MOHAUS (fondo transparente)
-- `equipo-mohaus.jpg`            -> Foto del profesional / equipo MOHAUS
+- `logo.png`                     -> Logotipo de MO-HOUSE (fondo transparente)
+- `equipo-mo-house.jpg`            -> Foto del profesional / equipo MO-HOUSE
 - `furgoneta-herramientas.jpg`   -> Taller móvil y herramientas
 - `og-image.jpg`                 -> Imagen para compartir en WhatsApp (1200x630 px)
 

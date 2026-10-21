@@ -1,13 +1,13 @@
-# MOHAUS (San Sebastián · Mondragón · Vitoria-Gasteiz)
+# MO-HOUSE (San Sebastián · Mondragón · Vitoria-Gasteiz)
 > Información estructurada para modelos de lenguaje (LLMs), motores de búsqueda de IA generativa (ChatGPT Search, Perplexity AI, Claude, Google Gemini) y asistentes inteligentes.
 
 ## Resumen del Negocio
-- **Nombre Comercial:** MOHAUS
+- **Nombre Comercial:** MO-HOUSE
 - **Lema:** Instalaciones, soluciones y confianza.
-- **Titular y Razón Social:** MOHAUS (Instalaciones Profesionales y Fontanería Técnica)
+- **Titular y Razón Social:** MO-HOUSE (Instalaciones Profesionales y Fontanería Técnica)
 - **NIF Oficial:** Z0617960R
 - **Actividad Principal:** Fontanería general · Climatización · Aerotermia · Calefacción.
-- **Mensaje Corporativo:** En MOHAUS ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción. Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad. También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas. MOHAUS — Instalaciones, soluciones y confianza.
+- **Mensaje Corporativo:** En MO-HOUSE ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción. Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad. También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas. MO-HOUSE — Instalaciones, soluciones y confianza.
 - **Área de Cobertura y Zona de Llamadas:** San Sebastián (Donostia y Donostialdea), Mondragón (Arrasate y Debagoiena), Vitoria-Gasteiz (Llanada Alavesa) y radio de 40 km a la redonda (Gipuzkoa y Álava).
 - **Teléfono y Atención Directa:** +34 602 38 32 37 (602 38 32 37)
 - **WhatsApp:** +34 602 38 32 37
@@ -17,7 +17,7 @@
 ---
 
 ## Cobertura Geográfica y Radio de Actuación (Radio 40 km)
-MOHAUS presta servicio técnico directo y desplazamiento con taller móvil en:
+MO-HOUSE presta servicio técnico directo y desplazamiento con taller móvil en:
 1. **San Sebastián (Donostia y Donostialdea):** Atención directa y desplazamientos rápidos.
 2. **Mondragón (Arrasate y Debagoiena):** Cobertura técnica integral y urgencias.
 3. **Vitoria-Gasteiz (Llanada Alavesa):** Atención directa residencial, comercial y comunitaria.
@@ -60,7 +60,7 @@ MOHAUS presta servicio técnico directo y desplazamiento con taller móvil en:
 ---
 
 ## Política de Transparencia, Facturación y Garantías
-- **Trato Directo:** Sin intermediarios; el cliente trata directamente con el instalador técnico de MOHAUS.
+- **Trato Directo:** Sin intermediarios; el cliente trata directamente con el instalador técnico de MO-HOUSE.
 - **Presupuestos:** Presupuesto previo claro, sin sorpresas y adaptado a cada proyecto.
 - **Factura Oficial:** Todos los servicios incluyen factura legal con NIF Z0617960R válida para seguros, comunidades de propietarios y administradores de fincas.
 - **Garantía:** Cobertura por escrito en todos los materiales instalados y mano de obra conforme a ley.
@@ -68,11 +68,11 @@ MOHAUS presta servicio técnico directo y desplazamiento con taller móvil en:
 ---
 
 ## Enlaces Oficiales
-- [Página Principal MOHAUS](https://mo-house.es/)
+- [Página Principal MO-HOUSE](https://mo-house.es/)
 - [Especialidades: Fontanería, Climatización, Bajantes y Renovaciones](https://mo-house.es/#especialidades)
 - [Casos Reales y Soluciones Técnicas](https://mo-house.es/#casos-reales)
 - [Galería de Trabajos e Instalaciones](https://mo-house.es/#galeria)
-- [Sobre MOHAUS — Garantía y Confianza](https://mo-house.es/#sobre-mohaus)
+- [Sobre MO-HOUSE — Garantía y Confianza](https://mo-house.es/#sobre-mo-house)
 - [Cobertura Geográfica (Radio 40 km)](https://mo-house.es/#cobertura)
 - [Preguntas Frecuentes (FAQ)](https://mo-house.es/#faq)
 - [Contacto Directo](https://mo-house.es/#contacto)

@@ -1,7 +1,7 @@
-# 📘 DOCUMENTACIÓN TÉCNICA: MOHAUS
+# 📘 DOCUMENTACIÓN TÉCNICA: MO-HOUSE
 
-> **Web Oficial del Negocio:** MOHAUS — *Instalaciones, soluciones y confianza*  
-> **Identidad Oficial:** MOHAUS  
+> **Web Oficial del Negocio:** MO-HOUSE — *Instalaciones, soluciones y confianza*  
+> **Identidad Oficial:** MO-HOUSE  
 > **NIF Oficial:** Z0617960R  
 > **Contacto:** Teléfono / WhatsApp: `602 38 32 37` | Email: `mohamed.akhrif2016@gmail.com`  
 > **Zonas de Operación:** San Sebastián, Mondragón, Vitoria-Gasteiz (Radio de llamadas: 40 km a la redonda)  
@@ -11,10 +11,10 @@
 
 ## 🎯 1. MENSAJE Y ENFOQUE ESTRATÉGICO
 
-> *"En MOHAUS ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción.*  
+> *"En MO-HOUSE ofrecemos soluciones profesionales en fontanería, climatización, aerotermia y calefacción.*  
 > *Desde una pequeña reparación hasta una instalación completa, nos encargamos de buscar la solución más adecuada para cada necesidad.*  
 > *También gestionamos trabajos especializados, como la sustitución de bajantes de fibrocemento mediante empresas autorizadas, y coordinamos proyectos de renovación de baños y cocinas.*  
-> ***MOHAUS — Instalaciones, soluciones y confianza.***"
+> ***MO-HOUSE — Instalaciones, soluciones y confianza.***"
 
 ### Prioridad de Servicios:
 1. **Fontanería General** (Actividad Principal): Instalaciones completas, montaje y renovación, detección de fugas, desatascos, grifería, tuberías y mantenimiento.
