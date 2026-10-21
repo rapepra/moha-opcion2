@@ -451,7 +451,12 @@
             }
           }
         ]
-      }
+      },
+      "hasMap": "https://share.google/VWmdFWs8nFVwzVktb",
+      "sameAs": [
+        "https://share.google/VWmdFWs8nFVwzVktb",
+        "https://www.google.com/search?kgmid=/g/11p27mvmxk"
+      ]
     },
     {
       "@type": "FAQPage",
@@ -3630,14 +3635,14 @@
             </div>
           </a>
 
-          <div class="direct-channel-card">
+          <a href="https://share.google/VWmdFWs8nFVwzVktb" target="_blank" rel="noopener" class="direct-channel-card" title="Perfil de MO-HOUSE en Google Maps" data-conversion="maps-channel">
             <div class="channel-icon-wrap">📍</div>
             <div class="channel-meta">
-              <strong>Zona Operativa y Cobertura</strong>
-              <span>San Sebastián • Mondragón • Vitoria</span>
-              <span class="channel-sub-info">Radio de llamadas: 40 km a la redonda</span>
+              <strong>Google Maps y Reseñas</strong>
+              <span>Ver perfil de MO-HOUSE</span>
+              <span class="channel-sub-info">Fotos, opiniones de clientes y cómo contactar</span>
             </div>
-          </div>
+          </a>
 
         </div>
 
@@ -3700,6 +3705,7 @@
             <li><a href="#cobertura">Donostialdea, Costa y Goierri</a></li>
             <li><a href="#cobertura">Alto y Bajo Deba, Durangaldea</a></li>
             <li><a href="#cobertura">Llanada Alavesa (Radio 40 km)</a></li>
+            <li><a href="https://share.google/VWmdFWs8nFVwzVktb" target="_blank" rel="noopener" data-conversion="maps-footer">📍 MO-HOUSE en Google Maps</a></li>
           </ul>
         </div>
 
@@ -3849,7 +3855,7 @@
       const href = cta.getAttribute('href') || '';
       window.dataLayer.push({
         event: 'lead_click',
-        lead_channel: href.startsWith('tel:') ? 'phone' : (href.includes('wa.me') ? 'whatsapp' : 'other'),
+        lead_channel: href.startsWith('tel:') ? 'phone' : href.includes('wa.me') ? 'whatsapp' : href.includes('share.google') ? 'google_maps' : 'other',
         lead_location: cta.dataset.conversion
       });
     });
