@@ -552,6 +552,12 @@
       "inLanguage": "es-ES",
       "publisher": {
         "@id": "https://mo-house.es/#business"
+      },
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://estudios.presupuesta.net/#agency",
+        "name": "Presupuesta Estudios",
+        "url": "https://estudios.presupuesta.net/"
       }
     },
     {
@@ -931,6 +937,13 @@
     @media (min-width: 1180px) {
       .main-nav {
         display: flex;
+      }
+    }
+
+    /* Entre 1180 y 1499px el menú completo no cabe junto al subtítulo del logo */
+    @media (min-width: 1180px) and (max-width: 1499px) {
+      .brand-subtitle-tag {
+        display: none;
       }
     }
 
@@ -2683,6 +2696,50 @@
       width: auto;
       object-fit: contain;
     }
+
+    /* Crédito de agencia: Presupuesta Estudios */
+    .pe-credit {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.25rem;
+      padding: 1.25rem 0 0.25rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    
+    .pe-credit a {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 0.25rem 0.45rem;
+      max-width: 100%;
+      padding: 0.6rem 1.1rem;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.04);
+      color: #cbd5e1;
+      font-size: 0.82rem;
+      line-height: 1.45;
+      text-align: center;
+      text-decoration: none;
+      transition: border-color 0.2s ease, background-color 0.2s ease;
+    }
+    
+    .pe-credit a:hover,
+    .pe-credit a:focus-visible {
+      border-color: var(--brand-orange);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    
+    .pe-credit-brand {
+      color: #ffffff;
+      font-weight: 800;
+    }
+    
+    .pe-credit-cta {
+      color: var(--brand-orange);
+      font-weight: 700;
+    }
   </style>
 </head>
 <body>
@@ -3720,6 +3777,14 @@
           <button type="button" onclick="openCleanLegal('privacidad')">Privacidad</button>
           <button type="button" onclick="openCleanLegal('cookies')">Cookies</button>
         </div>
+      </div>
+
+      <div class="pe-credit">
+        <a href="https://estudios.presupuesta.net/?utm_source=mo-house&amp;utm_medium=footer-credit&amp;utm_campaign=client-referral" target="_blank" rel="noopener" title="Presupuesta Estudios: páginas web y posicionamiento en Google y Google Maps para negocios">
+          <span class="pe-credit-lead">Diseño web y SEO local por</span>
+          <strong class="pe-credit-brand">Presupuesta Estudios</strong>
+          <span class="pe-credit-cta">¿Eres profesional? Consigue una web como esta&nbsp;→</span>
+        </a>
       </div>
 
     </div>
