@@ -62,6 +62,7 @@ moha-opcion2/
 ├── urgencias-24h/            # Fontanero urgente 24 h      │ tools/generar_web.py
 ├── aerotermia-climatizacion/ # Aerotermia, clima, calef.   │ (no editar a mano)
 ├── bajantes-fibrocemento/    # Bajantes de uralita         │
+├── reparaciones-obras-ermua/ # Reparaciones y obras Ermua  │
 ├── zona-de-servicio/         # Los 47 pueblos por comarca  │
 ├── 404.html, sitemap.xml     #                             ┘
 ├── images/opt/               # Fotos optimizadas que sirve la web (AVIF/WebP/JPG)

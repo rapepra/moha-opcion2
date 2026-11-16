@@ -24,6 +24,8 @@ NIF = "Z0617960R"
 GBP = "https://share.google/MHQ0pvipF8k27Tr6L"
 KG = "https://www.google.com/search?kgmid=/g/11p27mvmxk"
 BIZ_ID = f"{SITE}/#business"
+LAT, LON = 43.1873, -2.5015  # Ermua (sin calle: la ficha de Google no muestra dirección exacta)
+RATING = 5.0                  # valoración de la ficha de Google
 
 # Pueblos a menos de 25 km de Ermua/Eibar, por comarca
 ZONAS = [
@@ -94,6 +96,12 @@ SVG_PHONE = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M
 SVG_WA = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M.06 24l1.69-6.16a11.87 11.87 0 0 1-1.59-5.95C.16 5.34 5.5 0 12.05 0a11.82 11.82 0 0 1 8.41 3.49 11.82 11.82 0 0 1 3.48 8.41c0 6.56-5.34 11.89-11.89 11.89a11.9 11.9 0 0 1-5.69-1.45zm6.6-3.81c1.67 1 3.28 1.59 5.39 1.59 5.45 0 9.89-4.43 9.89-9.88 0-5.46-4.42-9.89-9.88-9.89-5.45 0-9.89 4.43-9.89 9.88 0 2.23.65 3.89 1.75 5.64l-1 3.64zm11.38-5.46c-.07-.12-.27-.2-.57-.35-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41z"/></svg>'
 
 
+def rating(conv="maps-rating"):
+    return (f'<a class="rating" href="{GBP}" target="_blank" rel="noopener" data-conversion="{conv}">'
+            f'<span class="stars" aria-hidden="true">★★★★★</span><strong>{str(RATING).replace(".", ",")}</strong>'
+            f'<span>en Google · Ver opiniones</span></a>')
+
+
 def wa(text):
     return f"https://wa.me/34602383237?text={quote(text)}"
 
@@ -160,7 +168,7 @@ def footer():
 <li><a href="/aerotermia-climatizacion/">Aerotermia y aire acondicionado</a></li>
 <li><a href="/aerotermia-climatizacion/#calefaccion">Calefacción y radiadores</a></li>
 <li><a href="/bajantes-fibrocemento/">Bajantes de fibrocemento</a></li>
-<li><a href="/#servicios">Baños y cocinas</a></li>
+<li><a href="/reparaciones-obras-ermua/">Reparaciones y obras</a></li>
 </ul>
 </div>
 <div>
@@ -213,9 +221,9 @@ def business(full=False):
         "image": f"{SITE}/images/opt/og-mo-house-1200x630.jpg",
         "logo": f"{SITE}/images/opt/logo-mo-house-512.png",
         "priceRange": "€€",
-        "address": {"@type": "PostalAddress", "addressLocality": "Eibar", "postalCode": "20600",
-                    "addressRegion": "Gipuzkoa", "addressCountry": "ES"},
-        "geo": {"@type": "GeoCoordinates", "latitude": 43.1849, "longitude": -2.4727},
+        "address": {"@type": "PostalAddress", "addressLocality": "Ermua", "postalCode": "48260",
+                    "addressRegion": "Bizkaia", "addressCountry": "ES"},
+        "geo": {"@type": "GeoCoordinates", "latitude": LAT, "longitude": LON},
         "openingHoursSpecification": [{"@type": "OpeningHoursSpecification",
                                        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                                        "opens": "00:00", "closes": "23:59"}],
@@ -240,7 +248,7 @@ def business(full=False):
                           + [{"@type": "AdministrativeArea", "name": n} for n in
                              ["Debabarrena", "Durangaldea", "Debagoiena", "Lea-Artibai", "Bizkaia", "Gipuzkoa"]],
             "serviceArea": {"@type": "GeoCircle",
-                            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 43.1849, "longitude": -2.4727},
+                            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": LAT, "longitude": LON},
                             "geoRadius": "25000"},
             "contactPoint": [{"@type": "ContactPoint", "telephone": TEL, "contactType": "customer service",
                               "areaServed": ["Ermua", "Eibar", "Bizkaia", "Gipuzkoa"], "availableLanguage": ["es"],
@@ -251,7 +259,7 @@ def business(full=False):
                            "Aire acondicionado", "Calefacción", "Radiadores", "Bajantes de fibrocemento", "Saneamiento",
                            "Reforma de baños"],
             "makesOffer": [{"@type": "Offer", "itemOffered": {"@id": f"{SITE}{p}#servicio"}} for p in
-                           ["/urgencias-24h/", "/aerotermia-climatizacion/", "/bajantes-fibrocemento/"]],
+                           ["/urgencias-24h/", "/aerotermia-climatizacion/", "/bajantes-fibrocemento/", "/reparaciones-obras-ermua/"]],
         })
     return b
 
@@ -299,10 +307,10 @@ def page(path, title, desc, body, graph, lcp=None, og_image=None, robots="index,
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{url}">
 <meta name="format-detection" content="telephone=no">
-<meta name="geo.region" content="ES-PV">
+<meta name="geo.region" content="ES-BI">
 <meta name="geo.placename" content="Ermua; Eibar">
-<meta name="geo.position" content="43.1849;-2.4727">
-<meta name="ICBM" content="43.1849, -2.4727">
+<meta name="geo.position" content="{LAT};{LON}">
+<meta name="ICBM" content="{LAT}, {LON}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_ES">
 <meta property="og:site_name" content="MO-HOUSE">
@@ -381,6 +389,7 @@ def aside(conv, msg, links):
 {btn_call("call-" + conv)}
 {btn_wa("wa-" + conv, msg, "Enviar fotos por WhatsApp")}
 </div>
+<div class="aside-box"><h3>Opiniones</h3><p>Nuestros clientes nos valoran con 5 estrellas en Google.</p>{rating("maps-aside-" + conv)}</div>
 <div class="aside-box"><h3>También te puede interesar</h3><ul style="margin-top:0.6rem">{li}</ul></div>
 </aside>'''
 
@@ -393,6 +402,7 @@ def inner(path, crumb, h1, sub, lead, hero_img, hero_alt, hero_cap, hero_pos, co
 <h1>{h1}<span class="sub" style="display:block;font-size:0.5em">{sub}</span></h1>
 <p class="lead">{lead}</p>
 <div class="cta-row">{btn_call("call-hero-" + conv)}{btn_wa("wa-hero-" + conv, msg)}</div>
+{rating("maps-hero-" + conv)}
 </div>
 <figure class="hero-photo">{pic(hero_img, hero_alt, "(max-width: 900px) 100vw, 520px", eager=True, pos=hero_pos)}<figcaption>{hero_cap}</figcaption></figure>
 </div>
@@ -469,7 +479,7 @@ def build_home():
         ("reforma-bano-ducha-calacatta-eibar", "Baño reformado con ducha de obra en Eibar", "Baños y cocinas",
          "Cuando la reforma toca agua y desagües, nos encargamos de la instalación y coordinamos al resto de gremios.",
          ["Cambio de bañera por plato de ducha", "Nueva distribución de agua y desagües",
-          "Coordinación de albañil, electricista y alicatado", "Cocinas: fregadero, lavavajillas y tomas"], "#contacto", "Pedir presupuesto", "50% 60%"),
+          "Coordinación de albañil, electricista y alicatado", "Cocinas: fregadero, lavavajillas y tomas"], "/reparaciones-obras-ermua/", "Ver reparaciones y obras", "50% 60%"),
     ]
     svc_html = "".join(f'''<article class="card">{pic(b, alt, "(max-width: 680px) 100vw, 560px", pos=pos)}
 <div class="card-body"><h3>{t}</h3><p>{d}</p><ul>{"".join(f"<li>{x}</li>" for x in pts)}</ul>
@@ -525,6 +535,7 @@ def build_home():
 <h1><span class="hl">Fontanero en Eibar y Ermua</span><span class="sub">Fontanería, climatización, aerotermia y calefacción. Urgencias 24 horas.</span></h1>
 <p class="lead">Somos MO-HOUSE, de Ermua. Reparamos averías y hacemos instalaciones en pisos, comunidades y locales de Ermua, Eibar y los pueblos de alrededor. Hablas directamente con el instalador y sabes el precio antes de empezar.</p>
 <div class="cta-row">{btn_call("call-hero")}{btn_wa("wa-hero", "Hola MO-HOUSE, necesito presupuesto o ayuda con una avería.", "Escribir por WhatsApp")}</div>
+{rating("maps-hero")}
 <ul class="checks">
 <li>Urgencias 24 horas, también fines de semana y festivos</li>
 <li>Presupuesto cerrado y sin compromiso, incluso por fotos</li>
@@ -566,7 +577,7 @@ def build_home():
 <div><dt>Horario</dt><dd>24 horas, todos los días</dd></div>
 <div><dt>Zona</dt><dd>Ermua, Eibar y 25 km</dd></div>
 <div><dt>Teléfono y WhatsApp</dt><dd>{PHONE}</dd></div>
-<div><dt>NIF</dt><dd>{NIF}</dd></div>
+<div><dt>Opiniones en Google</dt><dd><a href="{GBP}" target="_blank" rel="noopener">5 estrellas</a></dd></div>
 </dl>
 </div>
 </div>
@@ -579,6 +590,8 @@ def build_home():
 <div class="place-cards">
 <a class="place" href="/fontanero-ermua/"><h3>Fontanero en Ermua</h3><p>Somos de aquí. Urgencias en 20 a 30 minutos, Mallabia y Zaldibar incluidos.</p><span class="card-link">Ver Ermua →</span></a>
 <a class="place" href="/fontanero-eibar/"><h3>Fontanero en Eibar</h3><p>Todos los barrios, de Amaña a Urki e Ipurua. Urgencias en 20 a 30 minutos.</p><span class="card-link">Ver Eibar →</span></a>
+<a class="place" href="/reparaciones-obras-ermua/"><h3>Reparaciones y obras en Ermua</h3><p>Baños, cocinas, cambio de bañera por ducha y arreglos tras una fuga.</p><span class="card-link">Ver obras →</span></a>
+<a class="place" href="/zona-de-servicio/"><h3>47 pueblos a 25 km</h3><p>Durangaldea, Bajo y Alto Deba, Lea-Artibai y Urola.</p><span class="card-link">Ver la zona →</span></a>
 </div>
 <div class="zones">{zones_short}</div>
 <p class="note">¿Tu pueblo no aparece? Si está a menos de 25 km de Ermua o Eibar, también vamos. <a href="/zona-de-servicio/">Ver la zona completa</a> o <a href="tel:{TEL}" data-conversion="call-zona">llama al {PHONE}</a>.</p>
@@ -653,7 +666,7 @@ def build_ermua():
 <li><strong>Fontanería:</strong> cambio de tuberías de plomo, hierro o cobre antiguo por multicapa, grifos, cisternas, termos y calentadores.</li>
 <li><strong>Calefacción y aerotermia:</strong> radiadores, purgado y equilibrado, cambio a bomba de calor, aire acondicionado.</li>
 <li><strong>Comunidades:</strong> bajantes (también de fibrocemento, con empresa autorizada), colectores de garaje y contadores.</li>
-<li><strong>Baños y cocinas:</strong> cambio de bañera por plato de ducha, nuevas tomas y desagües.</li>
+<li><strong>Baños y cocinas:</strong> cambio de bañera por plato de ducha, nuevas tomas y desagües. Mira <a href="/reparaciones-obras-ermua/">reparaciones y obras en Ermua</a>.</li>
 </ul>
 
 <h2>Los pisos de Ermua y sus instalaciones</h2>
@@ -681,9 +694,9 @@ def build_ermua():
                  f"Fugas, atascos, calefacción, aerotermia y bajantes en Ermua, Mallabia y Zaldibar. Llegamos en 20 a 30 minutos y te damos el precio antes de empezar.",
                  hero, "Ducha nueva en lugar de bañera en un piso de Ermua", "<strong>Cambio de bañera por ducha</strong>Vivienda en Ermua", "50% 70%",
                  "ermua", msg, content, faqs,
-                 [("/fontanero-eibar/", "Fontanero en Eibar"), ("/urgencias-24h/", "Urgencias 24 h"),
-                  ("/aerotermia-climatizacion/", "Aerotermia y climatización"), ("/bajantes-fibrocemento/", "Bajantes de fibrocemento"),
-                  ("/zona-de-servicio/#durangaldea", "Durangaldea")])
+                 [("/reparaciones-obras-ermua/", "Reparaciones y obras en Ermua"), ("/fontanero-eibar/", "Fontanero en Eibar"),
+                  ("/urgencias-24h/", "Urgencias 24 h"), ("/aerotermia-climatizacion/", "Aerotermia y climatización"),
+                  ("/bajantes-fibrocemento/", "Bajantes de fibrocemento")])
     title = "Fontanero en Ermua 24 h · Urgencias y Calefacción | MO-HOUSE"
     desc = f"Fontanero de Ermua: urgencias 24 h, fugas, atascos, calefacción, aerotermia y bajantes en Ermua, Mallabia y Zaldibar. Llegamos en 20-30 min. ☎ {PHONE}"
     url = SITE + path
@@ -986,6 +999,82 @@ def build_zona():
     PAGES.append((path, []))
 
 
+def build_obras():
+    path = "/reparaciones-obras-ermua/"
+    hero = "reforma-bano-atico-vigas-eibar"
+    msg = "Hola MO-HOUSE, quiero presupuesto para una reparación u obra en Ermua."
+    faqs = [
+        ("¿Hacéis obras pequeñas o solo reformas completas?",
+         "Las dos cosas. Desde cerrar y alicatar el hueco que queda tras reparar una fuga hasta reformar el baño o la cocina entera."),
+        ("¿Cuánto se tarda en cambiar la bañera por un plato de ducha?",
+         "Normalmente uno o dos días: quitar la bañera, adaptar agua y desagüe, impermeabilizar, montar el plato y la mampara, y rematar el alicatado."),
+        ("¿Tengo que buscar yo al albañil o al electricista?",
+         "No. Nosotros hacemos la fontanería y coordinamos al resto de oficios que haga falta, así tratas con una sola persona y un solo presupuesto."),
+        ("¿Hace falta permiso del Ayuntamiento de Ermua?",
+         "Para obras interiores pequeñas suele bastar con comunicarlo al Ayuntamiento. Según la obra, te decimos qué hace falta antes de empezar."),
+        ("¿Os lleváis el escombro?",
+         "Sí. Retiramos el escombro y dejamos la vivienda limpia al terminar."),
+    ]
+    content = f'''<h2>Reparaciones en casa</h2>
+<p>Muchas reparaciones empiezan por el agua: una fuga detrás del azulejo, un plato de ducha que filtra al vecino, una bajante que hay que abrir. Nosotros no nos quedamos en arreglar la tubería: cerramos el hueco, reponemos el alicatado y dejamos la pared o el suelo como estaban.</p>
+<ul>
+<li>Fugas y humedades: localizar, reparar y rematar la obra.</li>
+<li>Platos de ducha rotos o que filtran.</li>
+<li>Cambio de sanitarios, grifería, cisternas y termos.</li>
+<li>Apertura y cierre de patinillos y registros.</li>
+<li>Tuberías viejas que conviene cambiar antes de que den problemas.</li>
+</ul>
+
+<h2>Obras y reformas en Ermua</h2>
+<ul>
+<li><strong>Cambio de bañera por plato de ducha</strong>, en uno o dos días.</li>
+<li><strong>Reforma de baño completa:</strong> instalación nueva de agua y desagües, plato o bañera, mueble, sanitarios y alicatado.</li>
+<li><strong>Cocinas:</strong> nueva distribución de tomas, fregadero, lavavajillas y lavadora.</li>
+<li><strong>Calefacción y radiadores</strong> aprovechando la obra.</li>
+</ul>
+
+<h2>Cómo organizamos una obra</h2>
+<ol>
+<li>Vamos a verla y te damos un presupuesto cerrado, por partidas.</li>
+<li>Hacemos la fontanería y coordinamos al albañil, al electricista y al alicatador cuando hacen falta. Hablas con una sola persona.</li>
+<li>Te decimos cuántos días va a durar y qué partes de la casa no podrás usar.</li>
+<li>Al terminar retiramos el escombro, limpiamos y te damos factura oficial.</li>
+</ol>
+
+<h2>Baños de los pisos de Ermua</h2>
+<p>En muchos pisos de Ermua de los años 60 y 70 el baño todavía tiene la bañera original y las tuberías de entonces. Si vas a reformarlo, es el momento de cambiar también las tuberías que quedan detrás de los azulejos: luego ya no se ven y es cuando más caro sale abrir.</p>
+{photo_row([
+    ("demolicion-murete-banera-antigua-eibar", "Demolición del murete de una bañera antigua", "Quitando la bañera antigua", None),
+    ("obra-reforma-plato-ducha-proceso-eibar", "Obra de cambio de bañera por plato de ducha en proceso", "Plato de ducha durante la obra", None),
+    ("cambio-banera-por-plato-ducha-eibar", "Ducha terminada con grifería negra tras la reforma", "Ducha terminada", "50% 70%"),
+    ("adaptacion-desague-ducha-mortero-eibar", "Adaptación del desagüe de la ducha antes de la solera", "Nuevo desagüe de ducha", None),
+    ("reforma-bano-mueble-lavabo-led-eibar", "Baño reformado con mueble de madera y espejo con luz", "Baño reformado", None),
+    ("instalacion-inodoro-sanitario-eibar", "Inodoro nuevo instalado en un baño reformado", "Inodoro nuevo", None),
+])}
+
+<h2>También cerca de Ermua</h2>
+<p>Hacemos reparaciones y obras en Mallabia, Zaldibar, <a href="/fontanero-eibar/">Eibar</a> y el resto de pueblos de nuestra <a href="/zona-de-servicio/">zona de servicio</a>. Para averías urgentes, mira <a href="/urgencias-24h/">urgencias 24 h</a>.</p>'''
+    body = inner(path, "Reparaciones y obras en Ermua", "Reparaciones y obras en Ermua",
+                 "Baños, cocinas y arreglos de casa, con presupuesto cerrado.",
+                 "Somos de Ermua. Hacemos reparaciones del hogar y pequeñas obras: cambio de bañera por ducha, reformas de baño y cocina, y el remate de obra después de una fuga.",
+                 hero, "Baño reformado con lavabos sobre encimera en un ático de Ermua", "<strong>Reforma de baño</strong>Ático en Ermua", "50% 55%",
+                 "obras", msg, content, faqs,
+                 [("/fontanero-ermua/", "Fontanero en Ermua"), ("/urgencias-24h/", "Urgencias 24 h"),
+                  ("/aerotermia-climatizacion/", "Aerotermia y calefacción"), ("/bajantes-fibrocemento/", "Bajantes de fibrocemento"),
+                  ("/fontanero-eibar/", "Fontanero en Eibar")])
+    title = "Reparaciones y Obras en Ermua · Reformas de Baño | MO-HOUSE"
+    desc = f"Reparaciones y pequeñas obras en Ermua: reformas de baño y cocina, cambio de bañera por ducha y arreglos tras fugas. Presupuesto cerrado. ☎ {PHONE}"
+    url = SITE + path
+    graph = [business(), webpage(path, title, desc, hero), breadcrumb(url, "Reparaciones y obras en Ermua"),
+             service(path, "Reparaciones y obras en Ermua", "Home repair and renovation",
+                     "Reparaciones del hogar y pequeñas obras: reformas de baño y cocina, cambio de bañera por plato de ducha y reparación de daños por agua.",
+                     ["Ermua", "Mallabia", "Zaldibar", "Eibar"]),
+             faq_schema(url, faqs)]
+    write(path, page(path, title, desc, body, graph, preload(hero, "(max-width: 900px) 100vw, 520px")))
+    PAGES.append((path, [hero, "demolicion-murete-banera-antigua-eibar", "obra-reforma-plato-ducha-proceso-eibar",
+                         "cambio-banera-por-plato-ducha-eibar", "reforma-bano-mueble-lavabo-led-eibar", "instalacion-inodoro-sanitario-eibar"]))
+
+
 def build_404():
     body = f'''<section class="section"><div class="container" style="max-width:640px;text-align:center">
 <h1>Esta página no existe</h1>
@@ -1016,6 +1105,7 @@ if __name__ == "__main__":
     build_urgencias()
     build_aerotermia()
     build_bajantes()
+    build_obras()
     build_zona()
     build_404()
     build_sitemap()
