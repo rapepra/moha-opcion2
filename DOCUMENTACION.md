@@ -4,7 +4,7 @@
 > **Identidad Oficial:** MO-HOUSE  
 > **NIF Oficial:** Z0617960R  
 > **Contacto:** Teléfono / WhatsApp: `602 38 32 37` | Email: `mohamed.akhrif2016@gmail.com`  
-> **Zonas de Operación:** Eibar, Ermua y alrededores (Debabarrena, Durangaldea, Debagoiena, Lea-Artibai; 25 km)  
+> **Zonas de Operación:** Ermua (origen), Eibar y 47 pueblos a menos de 25 km · Urgencias 24 h  
 > **Actividad Principal:** Fontanería general · Climatización · Aerotermia · Calefacción  
 
 ---
@@ -26,18 +26,14 @@
 
 ## 🎨 2. IDENTIDAD VISUAL Y PALETA DE COLORES
 
-- **Azul Hydro (Fontanería & Climatización):** `#0284c7` (tuberías, agua, aerotermia y saneamiento).
-- **Naranja Energía (Calefacción & Confort):** `#ea580c` (calor, aerotermia, confort y dinamismo).
-- **Azul Marino Profundo (Fondo Dark / Estructura):** `#0b1329` / `#0f172a`.
-- **Superficie y Tarjetas:** `#1e293b` con bordes sutiles en `#334155`.
-- **Textos de Alto Contraste:** `#f8fafc` (títulos) y `#cbd5e1` (lectura fluida WCAG AAA).
+Diseño oscuro y sobrio (noviembre 2026): sin degradados ni brillos, fotos reales en lugar de iconos.
+- **Fondo:** `#0e1520` · secciones alternas `#121b28` · tarjetas `#172231`
+- **Botón principal (llamar):** cobre `#b85a24` (texto blanco, contraste 4.6:1)
+- **WhatsApp:** verde `#1c7548` · **detalles:** azul acero `#8db9dc` · **enlaces:** cobre claro `#e3a173`
+- **Texto:** `#e8edf3` / secundario `#a6b2c1`
 
 ---
 
-## 🌿 3. ARQUITECTURA DE ARCHIVOS
+## 🌿 3. ARQUITECTURA
 
-- `index.html`: Web principal responsive con navegación limpia, Schema.org estructurado, hero de alta conversión, grid 2x2 para las 4 especialidades, galería interactiva y llamada a la acción directa.
-- `llms.txt`: Resumen para indexadores LLM (Perplexity, ChatGPT, Claude, Gemini).
-- `llms-full.txt`: Especificación técnica extendida para respuestas precisas de IA generativa.
-- `sitemap.xml`: Mapa del sitio con prioridades y URLs actualizadas.
-- `robots.txt`: Directivas de rastreo para bots de búsqueda y crawlers de IA.
+Ver README.md: todas las páginas se generan con `tools/generar_web.py`.
