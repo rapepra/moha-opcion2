@@ -2,7 +2,7 @@
 
 Sitio web oficial de alta conversión (CRO), SEO Local y GEO (Generative Engine Optimization) para **MO-HOUSE** — *Instalaciones, soluciones y confianza*.
 
-Especialistas en **Fontanería general · Climatización · Aerotermia · Calefacción**, con servicio en **San Sebastián, Mondragón, Vitoria-Gasteiz y radio de 40 km a la redonda** (Gipuzkoa y Álava).
+Especialistas en **Fontanería general · Climatización · Aerotermia · Calefacción**, con base en **Eibar** y servicio en **Eibar, Ermua y alrededores** (Debabarrena, Durangaldea, Debagoiena y Lea-Artibai; unos 25 km a la redonda).
 
 ---
 
@@ -61,7 +61,8 @@ moha-opcion2/
 ├── sitemap.xml / robots.txt# Indexación para buscadores e IAs
 ├── _headers                # Cabeceras de Cloudflare Pages (caché, seguridad, noindex en *.pages.dev)
 ├── site.webmanifest, favicon.ico
-├── build.sh                # Genera dist/ solo con lo publicable
+├── build.sh                # Genera dist/ solo con lo publicable (y minifica el HTML)
+├── tools/minify.py         # Minificado conservador usado por build.sh
 └── README.md, DOCUMENTACION.md
 ```
 
@@ -97,7 +98,7 @@ Después, en el dominio: Rules → Redirect Rules → *Redirect from WWW to root
 
 ## 🖼️ Añadir o cambiar fotos
 
-1. Copia la foto a `images/` con un nombre descriptivo (`instalacion-aerotermia-bergara.jpg`).
+1. Copia la foto a `images/` con un nombre descriptivo (`instalacion-aerotermia-eibar.jpg`).
 2. Ejecuta `python3 images/optimizar_imagenes.py .` (genera las versiones en `images/opt/`).
 3. Usa en `index.html` el mismo bloque `<picture>` que las demás fotos.
 
@@ -109,4 +110,4 @@ Después, en el dominio: Rules → Redirect Rules → *Redirect from WWW to root
 - **NIF Oficial:** Z0617960R
 - **Teléfono / WhatsApp:** [602 38 32 37](tel:602383237)
 - **Email:** [mohamed.akhrif2016@gmail.com](mailto:mohamed.akhrif2016@gmail.com)
-- **Área de Cobertura:** San Sebastián · Mondragón · Vitoria-Gasteiz (Radio 40 km)
+- **Área de Cobertura:** Eibar · Ermua · alrededores (25 km)

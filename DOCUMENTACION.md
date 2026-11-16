@@ -4,7 +4,7 @@
 > **Identidad Oficial:** MO-HOUSE  
 > **NIF Oficial:** Z0617960R  
 > **Contacto:** Teléfono / WhatsApp: `602 38 32 37` | Email: `mohamed.akhrif2016@gmail.com`  
-> **Zonas de Operación:** San Sebastián, Mondragón, Vitoria-Gasteiz (Radio de llamadas: 40 km a la redonda)  
+> **Zonas de Operación:** Eibar, Ermua y alrededores (Debabarrena, Durangaldea, Debagoiena, Lea-Artibai; 25 km)  
 > **Actividad Principal:** Fontanería general · Climatización · Aerotermia · Calefacción  
 
 ---

@@ -37,6 +37,18 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+User-agent: Amazonbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
 # Sitemaps y Documentación GEO
 Sitemap: https://mo-house.es/sitemap.xml
 # LLMs GEO Standard

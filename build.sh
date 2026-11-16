@@ -12,6 +12,11 @@ cp index.html 404.html robots.txt sitemap.xml llms.txt llms-full.txt site.webman
 cp -R fonts dist/
 cp -R images/opt dist/images/
 
+# Minificado (si no hay python3 en el entorno de build, se publica sin minificar)
+if command -v python3 >/dev/null 2>&1; then
+  python3 tools/minify.py dist/index.html dist/404.html
+fi
+
 # Comprobación: toda ruta local referenciada en las páginas debe existir en dist/
 missing=0
 for page in dist/index.html dist/404.html; do
